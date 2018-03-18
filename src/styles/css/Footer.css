@@ -1,14 +1,19 @@
 /*
-Error: Undefined variable: "$sec-accent".
-        on line 3 of src/styles/scss/Home.scss
+Error: Undefined variable: "$main-dark".
+        on line 7 of src/styles/scss/Footer.scss
 
-1: .home-container {
-2:     height: 90vh;
-3:     background-color: $sec-accent;
-4: }
+2:     position: absolute;
+3:     bottom: 0;
+4:     width: 100%;
+5:     height: 10vh;
+6:     padding: 1em;    
+7:     background-color: $main-dark;
+8:     height: 10vh;
+9:     text-align: center;
+10: }
 
 Backtrace:
-src/styles/scss/Home.scss:3
+src/styles/scss/Footer.scss:7
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +67,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$sec-accent\".\A         on line 3 of src/styles/scss/Home.scss\A \A 1: .home-container {\A 2:     height: 90vh;\A 3:     background-color: $sec-accent;\A 4: }"; }
+  content: "Error: Undefined variable: \"$main-dark\".\A         on line 7 of src/styles/scss/Footer.scss\A \A 2:     position: absolute;\A 3:     bottom: 0;\A 4:     width: 100%;\A 5:     height: 10vh;\A 6:     padding: 1em;    \A 7:     background-color: $main-dark;\A 8:     height: 10vh;\A 9:     text-align: center;\A 10: }"; }

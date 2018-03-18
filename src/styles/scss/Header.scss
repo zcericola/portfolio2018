@@ -1,3 +1,21 @@
-.header-container {
-    background-color: mediumseagreen;
+.header-container {    
+    padding: 1em;    
+    background-color: $main-dark;  
+    height: 10vh;
+}
+
+#nav-bar {
+    display: flex;
+    float: right;
+}
+
+#logo {
+    float: left;
+    
+}
+
+.nav-element {
+    width: 3em;
+    margin: 0 1em;
+
 }

@@ -1,18 +1,17 @@
 import React, {Component} from 'react';
 
 class Header extends Component {
-    constructor(){
-        super();
-
-    }
+   
 
     render(){
         return(<div className = 'header-container'>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>            
+        <ul id = 'logo'>
+            <li className = 'nav-element'>Home</li>
+        </ul>
+        <ul id = 'nav-bar'>
+            <li className = 'nav-element'>About</li>
+            <li className = 'nav-element'>Projects</li>
+            <li className = 'nav-element'>Contact</li>         
         </ul>
         </div>)
     }
