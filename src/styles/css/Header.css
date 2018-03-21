@@ -1,21 +1,26 @@
 /*
-Error: Undefined variable: "$main-dark".
-        on line 3 of src/styles/scss/Header.scss
+Error: Undefined mixin 'nav-font-style'.
+        on line 4 of src/styles/scss/Header.scss, in `nav-font-style'
+        from line 4 of src/styles/scss/Header.scss
 
 1: .header-container {    
-2:     padding: 1em;    
-3:     background-color: $main-dark;  
-4:     height: 10vh;
-5: }
-6: 
-7: #nav-bar {
-8:     display: flex;
+2:     padding: 1em;        
+3:     height: 5vh;
+4:     @include nav-font-style;
+5:     color: $home-bg-color;
+6:     background-color: $hf-bg-color;
+7: }
+8: 
+9: #nav-bar {
 
 Backtrace:
-src/styles/scss/Header.scss:3
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+src/styles/scss/Header.scss:4:in `nav-font-style'
+src/styles/scss/Header.scss:4
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
@@ -66,4 +71,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-dark\".\A         on line 3 of src/styles/scss/Header.scss\A \A 1: .header-container {    \A 2:     padding: 1em;    \A 3:     background-color: $main-dark;  \A 4:     height: 10vh;\A 5: }\A 6: \A 7: #nav-bar {\A 8:     display: flex;"; }
+  content: "Error: Undefined mixin 'nav-font-style'.\A         on line 4 of src/styles/scss/Header.scss, in `nav-font-style'\A         from line 4 of src/styles/scss/Header.scss\A \A 1: .header-container {    \A 2:     padding: 1em;        \A 3:     height: 5vh;\A 4:     @include nav-font-style;\A 5:     color: $home-bg-color;\A 6:     background-color: $hf-bg-color;\A 7: }\A 8: \A 9: #nav-bar {"; }

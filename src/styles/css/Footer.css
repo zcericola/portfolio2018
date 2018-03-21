@@ -1,16 +1,18 @@
 /*
-Error: Undefined variable: "$main-dark".
+Error: Undefined variable: "$home-bg-color".
         on line 7 of src/styles/scss/Footer.scss
 
 2:     position: absolute;
 3:     bottom: 0;
 4:     width: 100%;
-5:     height: 10vh;
+5:     height: 5vh;
 6:     padding: 1em;    
-7:     background-color: $main-dark;
-8:     height: 10vh;
+7:     color: $home-bg-color;
+8:   
 9:     text-align: center;
-10: }
+10:     background-color: $hf-bg-color;
+11:     @include nav-font-style;
+12: }
 
 Backtrace:
 src/styles/scss/Footer.scss:7
@@ -67,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-dark\".\A         on line 7 of src/styles/scss/Footer.scss\A \A 2:     position: absolute;\A 3:     bottom: 0;\A 4:     width: 100%;\A 5:     height: 10vh;\A 6:     padding: 1em;    \A 7:     background-color: $main-dark;\A 8:     height: 10vh;\A 9:     text-align: center;\A 10: }"; }
+  content: "Error: Undefined variable: \"$home-bg-color\".\A         on line 7 of src/styles/scss/Footer.scss\A \A 2:     position: absolute;\A 3:     bottom: 0;\A 4:     width: 100%;\A 5:     height: 5vh;\A 6:     padding: 1em;    \A 7:     color: $home-bg-color;\A 8:   \A 9:     text-align: center;\A 10:     background-color: $hf-bg-color;\A 11:     @include nav-font-style;\A 12: }"; }

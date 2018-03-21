@@ -1,9 +1,28 @@
-$main-dark:  #3A533D;
-$sec-dark: #7FB685;
-$main-accent: #56CBF9;
-$sec-accent: rgb(243, 229, 205);
-$attn-color: rgb(253, 115, 64);
+
+// #FFFFFF White
+// #54DEFD maya blue
+// #FFE8D1 Blanched almond
+// #56EA3 Rackley
+// #826251 Pastel Brown
+
+
+//70D6FF maya blue
+// #FF70A6 french pink
+// #FF9770 pink-orange
+// #FFD670 orange-yellow
+// #E9FF70 bright yellow
+//F3FbFF
+
+$hf-bg-color: #70D6FF;
+$hf-font-color: #FF9770;
+$home-bg-color: #F3FBFF;
+
+
+@mixin nav-font-style{
+    font-family: 'Andika', sans-serif;
+    font-size: 27px;
+}
 
 .app {
-    color: $main-accent;
+    background-color: $home-bg-color;   
 }

@@ -1,7 +1,9 @@
 .header-container {    
-    padding: 1em;    
-    background-color: $main-dark;  
-    height: 10vh;
+    padding: 1em;        
+    height: 5vh;
+    @include nav-font-style;
+    color: $home-bg-color;
+    background-color: $hf-bg-color;
 }
 
 #nav-bar {
