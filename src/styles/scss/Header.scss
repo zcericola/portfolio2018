@@ -2,8 +2,9 @@
     padding: 1em;        
     height: 5vh;
     @include nav-font-style;
-    color: $home-bg-color;
-    background-color: $hf-bg-color;
+    color: $hf-bg-color;
+     font-size: 27px;
+       
 }
 
 #nav-bar {

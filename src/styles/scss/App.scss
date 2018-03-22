@@ -15,14 +15,19 @@
 
 $hf-bg-color: #70D6FF;
 $hf-font-color: #FF9770;
-$home-bg-color: #F3FBFF;
+$bg-color: #F3FBFF;
 
 
 @mixin nav-font-style{
-    font-family: 'Andika', sans-serif;
-    font-size: 27px;
+    font-family: 'Andika', sans-serif;   
+    background-color: $bg-color;
+    padding: 1.5em;
 }
 
 .app {
-    background-color: $home-bg-color;   
-}
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 10vh;
+    background-color: $bg-color;   
+      }

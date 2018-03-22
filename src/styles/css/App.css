@@ -1,4 +1,8 @@
 .app {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 10vh;
   background-color: #F3FBFF; }
 
 /*# sourceMappingURL=App.css.map */

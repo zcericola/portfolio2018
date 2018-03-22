@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$hf-font-color".
-        on line 15 of src/styles/scss/Home.scss
+        on line 27 of src/styles/scss/Home.scss
 
-10:     padding: 1em;
-11: }
-12: 
-13: .heading-text>h1 {
-14:      font-size: 56px;
-15:      color: $hf-font-color;
-16: }
-17: 
-18: .heading-text>h2{
-19:     font-size: 48px;
-20:     color: #70D6FF;
+22:     z-index: 99;
+23: }
+24: 
+25: .heading-text>h1 {
+26:      font-size: 56px;
+27:      color: $hf-font-color;
+28: }
+29: 
+30: .heading-text>h2{
+31:     font-size: 48px;
+32:     color: #70D6FF;
 
 Backtrace:
-src/styles/scss/Home.scss:15
+src/styles/scss/Home.scss:27
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$hf-font-color\".\A         on line 15 of src/styles/scss/Home.scss\A \A 10:     padding: 1em;\A 11: }\A 12: \A 13: .heading-text>h1 {\A 14:      font-size: 56px;\A 15:      color: $hf-font-color;\A 16: }\A 17: \A 18: .heading-text>h2{\A 19:     font-size: 48px;\A 20:     color: #70D6FF;"; }
+  content: "Error: Undefined variable: \"$hf-font-color\".\A         on line 27 of src/styles/scss/Home.scss\A \A 22:     z-index: 99;\A 23: }\A 24: \A 25: .heading-text>h1 {\A 26:      font-size: 56px;\A 27:      color: $hf-font-color;\A 28: }\A 29: \A 30: .heading-text>h2{\A 31:     font-size: 48px;\A 32:     color: #70D6FF;"; }
