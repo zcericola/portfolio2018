@@ -133,25 +133,21 @@ table {
 .home-container {
   height: 50em;
   width: 100%;
-  margin: 0 auto; }
-
-img {
-  height: inherit;
-  width: inherit;
+  margin: 0 auto;
+  background: linear-gradient(rgba(243, 251, 255, 0.6), rgba(243, 251, 255, 0.4)), url("../../assets/palm.jpg");
+  background-size: cover;
   overflow: hidden;
-  background-repeat: no-repeat;
-  opacity: .4; }
+  background-repeat: no-repeat; }
 
 .heading-text {
-  color: #FF70A6;
   font-family: 'Ribeye Marrow', cursive;
   text-align: center;
   padding: 1em;
-  z-index: 99; }
+  opacity: 1; }
 
 .heading-text > h1 {
   font-size: 56px;
-  color: #FF9770; }
+  color: #FF70A6; }
 
 .heading-text > h2 {
   font-size: 48px;
