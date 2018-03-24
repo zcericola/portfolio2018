@@ -131,27 +131,47 @@ table {
   background-color: #F3FBFF; }
 
 .home-container {
-  height: 50em;
+  height: 100%;
   width: 100%;
-  margin: 0 auto;
-  background: linear-gradient(rgba(243, 251, 255, 0.6), rgba(243, 251, 255, 0.4)), url("../../assets/palm.jpg");
-  background-size: cover;
+  background: linear-gradient(rgba(243, 251, 255, 0.9), rgba(243, 251, 255, 0.7)), url("../../assets/palm.jpg");
   overflow: hidden;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .heading-text {
-  font-family: 'Ribeye Marrow', cursive;
+  font-family: 'Bubblegum Sans', cursive;
   text-align: center;
   padding: 1em;
-  opacity: 1; }
+  color: #70D6FF;
+  margin: 2em 0;
+  padding: 5em; }
 
 .heading-text > h1 {
-  font-size: 56px;
-  color: #FF70A6; }
+  font-size: 5em; }
+
+#name {
+  font-family: 'Ribeye Marrow', sans-serif;
+  color: #2ED394; }
 
 .heading-text > h2 {
-  font-size: 48px;
-  color: #70D6FF; }
+  font-size: 4em; }
+
+.intro {
+  margin: 2em;
+  font-family: 'Andika', sans-serif;
+  color: #FF9770;
+  font-size: 2em;
+  float: left;
+  text-align: justify;
+  line-height: 2em; }
+
+.stack {
+  border: 5px solid #FF9770;
+  border-radius: 5px;
+  padding: 2em;
+  margin: 2em;
+  font-size: 2em;
+  float: left; }
 
 .header-container {
   padding: 1em;
@@ -160,7 +180,8 @@ table {
   background-color: #F3FBFF;
   padding: 1.5em;
   color: #70D6FF;
-  font-size: 27px; }
+  font-size: 1.5em;
+  border-bottom: 3px solid #FF9770; }
 
 #nav-bar {
   display: flex;
@@ -184,7 +205,7 @@ table {
   font-family: 'Andika', sans-serif;
   background-color: #F3FBFF;
   padding: 1.5em;
-  font-size: 24px; }
+  font-size: 1.5em; }
 
 body {
   margin: 0;
