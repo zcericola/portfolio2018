@@ -7,11 +7,11 @@ Error: Undefined mixin 'nav-font-style'.
 2:     padding: 1em;        
 3:     height: 5vh;
 4:     @include nav-font-style;
-5:     color: $hf-bg-color;
-6:      font-size: 1.5em;    
-7:      border-bottom: 3px solid $hf-font-color;
-8:        
-9: }
+5:     color: $main-color;
+6:      font-size: 1.5em;         
+7:        
+8: }
+9: 
 
 Backtrace:
 src/styles/scss/Header.scss:4:in `nav-font-style'
@@ -71,4 +71,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'nav-font-style'.\A         on line 4 of src/styles/scss/Header.scss, in `nav-font-style'\A         from line 4 of src/styles/scss/Header.scss\A \A 1: .header-container {    \A 2:     padding: 1em;        \A 3:     height: 5vh;\A 4:     @include nav-font-style;\A 5:     color: $hf-bg-color;\A 6:      font-size: 1.5em;    \A 7:      border-bottom: 3px solid $hf-font-color;\A 8:        \A 9: }"; }
+  content: "Error: Undefined mixin 'nav-font-style'.\A         on line 4 of src/styles/scss/Header.scss, in `nav-font-style'\A         from line 4 of src/styles/scss/Header.scss\A \A 1: .header-container {    \A 2:     padding: 1em;        \A 3:     height: 5vh;\A 4:     @include nav-font-style;\A 5:     color: $main-color;\A 6:      font-size: 1.5em;         \A 7:        \A 8: }\A 9: "; }

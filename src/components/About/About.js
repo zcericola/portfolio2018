@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 class About extends Component {
 
     render(){
         return(<div className = 'about-container'>
-        <h1>About</h1>
+        <section className = 'about-text'>
+        
+
+        
+        
+        </section>        
         </div>
         );
     }

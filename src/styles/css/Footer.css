@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$hf-bg-color".
+Error: Undefined variable: "$main-color".
         on line 7 of src/styles/scss/Footer.scss
 
 2:     position: absolute;
@@ -7,7 +7,7 @@ Error: Undefined variable: "$hf-bg-color".
 4:     width: 100%;
 5:     height: 5vh;
 6:     padding: 1em;    
-7:     color: $hf-bg-color;  
+7:     color: $main-color; 
 8:     text-align: center;
 9:     @include nav-font-style;
 10:     font-size: 1.5em; 
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$hf-bg-color\".\A         on line 7 of src/styles/scss/Footer.scss\A \A 2:     position: absolute;\A 3:     bottom: 0;\A 4:     width: 100%;\A 5:     height: 5vh;\A 6:     padding: 1em;    \A 7:     color: $hf-bg-color;  \A 8:     text-align: center;\A 9:     @include nav-font-style;\A 10:     font-size: 1.5em; \A 11:    \A 12: }"; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 7 of src/styles/scss/Footer.scss\A \A 2:     position: absolute;\A 3:     bottom: 0;\A 4:     width: 100%;\A 5:     height: 5vh;\A 6:     padding: 1em;    \A 7:     color: $main-color; \A 8:     text-align: center;\A 9:     @include nav-font-style;\A 10:     font-size: 1.5em; \A 11:    \A 12: }"; }

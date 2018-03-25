@@ -6,28 +6,21 @@
 // #826251 Pastel Brown
 
 
-//70D6FF maya blue
-// #FF70A6 french pink
-// #FF9770 pink-orange
-// #FFD670 orange-yellow
-// #E9FF70 bright yellow
-//#79C0BE Moonstone Blue
-//F3FbFF
-//Jungle Green #1A281F
-
+//#206639
+$main-color: rgb(32, 102, 57);
 $hf-bg-color: #70D6FF;
 $hf-font-color: #FF9770;
 $bg-color: #F3FBFF;
 
 
 @mixin nav-font-style{
-    font-family: 'Andika', sans-serif;   
+    font-family: 'Oldenburg', sans-serif;   
     background-color: $bg-color;
     padding: 1.5em;
 }
 
-.app {
-    min-height: 100vh;
+.app {    
+    height: 100%;
     overflow: hidden;
     position: relative;
     padding-bottom: 10vh;

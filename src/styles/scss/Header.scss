@@ -2,9 +2,8 @@
     padding: 1em;        
     height: 5vh;
     @include nav-font-style;
-    color: $hf-bg-color;
-     font-size: 1.5em;    
-     border-bottom: 3px solid $hf-font-color;
+    color: $main-color;
+     font-size: 1.5em;         
        
 }
 

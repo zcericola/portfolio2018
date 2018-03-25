@@ -2,20 +2,22 @@
     height: 100%; 
     width: 100%;
     background: linear-gradient(
+      rgba(243, 251, 255, 0.9)  
+      rgba(243, 251, 255, 0.7),
       rgba(243, 251, 255, 0.9),
-      rgba(243, 251, 255, 0.7)
     ),
-    url("../../assets/palm.jpg");
+    url("../../assets/whitebg.jpg");
     overflow: hidden;
     background-size: cover;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;   
+    color: $main-color; 
  } 
  
 .heading-text {   
-    font-family: 'Bubblegum Sans', cursive;    
-    text-align: center;
-    padding: 1em;
-    color: #70D6FF;  
+    font-family: 'Ribeye Marrow', cursive; 
+    float: left;
+    text-align: left;
+    padding: 1em;  
     margin: 2em 0;
     padding: 5em;
 }
@@ -25,10 +27,7 @@
      
 }
 
-#name {
-    font-family: 'Ribeye Marrow', sans-serif;
-    color: #2ED394;
-}
+
 
 .heading-text>h2{
     font-size: 4em;
@@ -36,21 +35,21 @@
 }
 
 .intro {   
+    width: 60%;
     margin: 2em;
-    font-family: 'Andika', sans-serif;
-    color: $hf-font-color;
+    font-family: 'Oldenburg', sans-serif;
     font-size: 2em;
     float: left;
-    text-align: justify;
+    text-align: left;
     line-height: 2em;
 }
 
-.stack {
-    border: 5px solid $hf-font-color;
-    border-radius: 5px;
-    padding: 2em;
-    margin: 2em;
-    font-size: 2em;
-    float: left;
+// .stack {
+//     border: 5px solid $hf-font-color;
+//     border-radius: 5px;
+//     padding: 2em;
+//     margin: 2em;
+//     font-size: 2em;
+//     float: left;
 
-}
+// }

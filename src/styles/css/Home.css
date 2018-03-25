@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$hf-font-color".
-        on line 41 of src/styles/scss/Home.scss
+Error: Undefined variable: "$main-color".
+        on line 13 of src/styles/scss/Home.scss
 
-36: }
-37: 
-38: .intro {   
-39:     margin: 2em;
-40:     font-family: 'Andika', sans-serif;
-41:     color: $hf-font-color;
-42:     font-size: 2em;
-43:     float: left;
-44:     text-align: justify;
-45:     line-height: 2em;
-46: }
+8:     ),
+9:     url("../../assets/whitebg.jpg");
+10:     overflow: hidden;
+11:     background-size: cover;
+12:     background-repeat: no-repeat;   
+13:     color: $main-color; 
+14:  } 
+15:  
+16: .heading-text {   
+17:     font-family: 'Ribeye Marrow', cursive; 
+18:     float: left;
 
 Backtrace:
-src/styles/scss/Home.scss:41
+src/styles/scss/Home.scss:13
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$hf-font-color\".\A         on line 41 of src/styles/scss/Home.scss\A \A 36: }\A 37: \A 38: .intro {   \A 39:     margin: 2em;\A 40:     font-family: 'Andika', sans-serif;\A 41:     color: $hf-font-color;\A 42:     font-size: 2em;\A 43:     float: left;\A 44:     text-align: justify;\A 45:     line-height: 2em;\A 46: }"; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 13 of src/styles/scss/Home.scss\A \A 8:     ),\A 9:     url(\"../../assets/whitebg.jpg\");\A 10:     overflow: hidden;\A 11:     background-size: cover;\A 12:     background-repeat: no-repeat;   \A 13:     color: $main-color; \A 14:  } \A 15:  \A 16: .heading-text {   \A 17:     font-family: 'Ribeye Marrow', cursive; \A 18:     float: left;"; }
