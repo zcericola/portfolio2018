@@ -131,13 +131,14 @@ table {
   background-color: #F3FBFF; }
 
 .home-container {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(243, 251, 255, 0.9) rgba(243, 251, 255, 0.7), rgba(243, 251, 255, 0.9)), url("../../assets/whitebg.jpg");
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #206639; }
+  color: #10321c;
+  border-right: 2em solid #C0B283; }
 
 .heading-text {
   font-family: 'Ribeye Marrow', cursive;
@@ -148,18 +149,20 @@ table {
   padding: 5em; }
 
 .heading-text > h1 {
-  font-size: 5em; }
+  font-size: 5em;
+  color: #C0B283; }
 
 .heading-text > h2 {
   font-size: 4em; }
 
-.intro {
+.text {
+  color: #10321c;
   width: 60%;
   margin: 2em;
   font-family: 'Oldenburg', sans-serif;
   font-size: 2em;
   float: left;
-  text-align: left;
+  text-align: justify;
   line-height: 2em; }
 
 .header-container {
@@ -168,7 +171,7 @@ table {
   font-family: 'Oldenburg', sans-serif;
   background-color: #F3FBFF;
   padding: 1.5em;
-  color: #206639;
+  color: #10321c;
   font-size: 1.5em; }
 
 #nav-bar {
@@ -179,8 +182,11 @@ table {
   float: left; }
 
 .nav-element {
-  width: 3em;
   margin: 0 1em; }
+
+.nav-element:hover {
+  border-bottom: 3px solid #C0B283;
+  cursor: pointer; }
 
 .footer-container {
   position: absolute;
@@ -188,12 +194,22 @@ table {
   width: 100%;
   height: 5vh;
   padding: 1em;
-  color: #206639;
+  color: #10321c;
   text-align: center;
   font-family: 'Oldenburg', sans-serif;
   background-color: #F3FBFF;
   padding: 1.5em;
   font-size: 1.5em; }
+
+.about-container {
+  width: 100%;
+  background-color: #10321c;
+  height: 100vh; }
+
+#about {
+  float: right;
+  color: #C0B283;
+  text-align: justify; }
 
 body {
   margin: 0;

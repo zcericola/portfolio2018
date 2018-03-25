@@ -6,16 +6,17 @@
 // #826251 Pastel Brown
 
 
-//#206639
-$main-color: rgb(32, 102, 57);
+//#206639 lighter dark green
+//184c2b darker green color
+$main-color: #10321c;
 $hf-bg-color: #70D6FF;
 $hf-font-color: #FF9770;
-$bg-color: #F3FBFF;
-
+$white: #F3FBFF;
+$second-color: #C0B283;
 
 @mixin nav-font-style{
     font-family: 'Oldenburg', sans-serif;   
-    background-color: $bg-color;
+    background-color: $white;
     padding: 1.5em;
 }
 
@@ -24,5 +25,6 @@ $bg-color: #F3FBFF;
     overflow: hidden;
     position: relative;
     padding-bottom: 10vh;
-    background-color: $bg-color;   
+    background-color: $white;
+
       }

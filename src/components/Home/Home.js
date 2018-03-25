@@ -8,11 +8,12 @@ class Home extends Component {
               <h1>Hi, I'm Zac.</h1>
               <h2></h2>
             
-              <p className="intro">
-                I'm a full stack web developer who specializes in
-                Javascript. Always up for a new adventure, I'm currently looking for a job to call home.
+              <p className="text">
+                A full stack web developer who specializes in
+                Javascript. I build dynamic web applications that pair clean, well commented code with no-nonsense design.
               </p>
             </section>
+            <span></span>
            
           </div>;
     }

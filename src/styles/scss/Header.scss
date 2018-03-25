@@ -18,8 +18,12 @@
 }
 
 .nav-element {
-    width: 3em;
     margin: 0 1em;
 
+}
+
+.nav-element:hover {
+    border-bottom: 3px solid $second-color;
+    cursor: pointer;
 }
 
