@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,mBAAoB;EAChB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI",
+"mappings": "AAAA,mBAAoB;EAChB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,GAAG;;AAIhB,MAAO;EACH,WAAW,EAAE,wBAAwB;EACrC,SAAS,EAAE,GAAG",
 "sources": ["../scss/Projects.scss"],
 "names": [],
 "file": "Projects.css"
