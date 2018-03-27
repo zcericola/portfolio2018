@@ -2,3 +2,9 @@
 @include container-style;
 border-right: 2em solid $main-color;
 }
+
+i {
+    height: 500px;
+    width: 400px;
+    color: tomato;
+}
