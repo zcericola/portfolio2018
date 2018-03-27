@@ -4,8 +4,7 @@
     background: linear-gradient(
       rgba(243, 251, 255, 0.9)  
       rgba(243, 251, 255, 0.7),
-      rgba(243, 251, 255, 0.9),
-    ),
+      rgba(243, 251, 255, 0.9)),
     url("../../assets/whitebg.jpg");
     overflow: hidden;
     background-size: cover;
@@ -40,19 +39,9 @@
     color: $main-color; 
     width: 60%;
     margin: 2em;
-    font-family: 'Oldenburg', sans-serif;
+    font-family: $main-font;
     font-size: 2em;
     float: left;
     text-align: justify;
     line-height: 2em;
 }
-
-// .stack {
-//     border: 5px solid $hf-font-color;
-//     border-radius: 5px;
-//     padding: 2em;
-//     margin: 2em;
-//     font-size: 2em;
-//     float: left;
-
-// }

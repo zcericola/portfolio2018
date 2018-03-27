@@ -13,11 +13,22 @@ $hf-bg-color: #70D6FF;
 $hf-font-color: #FF9770;
 $white: #F3FBFF;
 $second-color: #C0B283;
+$head-font: 'Ribeye Marrow', cursive;
+$main-font: 'Oldenburg', sans-serif;
 
 @mixin nav-font-style{
-    font-family: 'Oldenburg', sans-serif;   
+    font-family: $main-font;   
     background-color: $white;
     padding: 1.5em;
+}
+
+@mixin container-style {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+    color: $main-color;    
+    font-style: 'Oldenberg', sans-serif;
 }
 
 .app {    

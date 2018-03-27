@@ -1,24 +1,21 @@
 /*
-Error: Undefined variable: "$main-color".
-        on line 12 of src/styles/scss/Home.scss
+Error: Undefined mixin 'container-style'.
+        on line 2 of src/styles/scss/Tech.scss, in `container-style'
+        from line 2 of src/styles/scss/Tech.scss
 
-7:       rgba(243, 251, 255, 0.9)),
-8:     url("../../assets/whitebg.jpg");
-9:     overflow: hidden;
-10:     background-size: cover;
-11:     background-repeat: no-repeat;   
-12:     color: $main-color; 
-13:     border-right: 2em solid $second-color;
-14:  } 
-15:  
-16: .heading-text {   
-17:     font-family: 'Ribeye Marrow', cursive; 
+1: .tech-container {
+2: @include container-style;
+3: border-right: 2em solid $main-color;
+4: }
 
 Backtrace:
-src/styles/scss/Home.scss:12
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+src/styles/scss/Tech.scss:2:in `container-style'
+src/styles/scss/Tech.scss:2
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
@@ -69,4 +66,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 12 of src/styles/scss/Home.scss\A \A 7:       rgba(243, 251, 255, 0.9)),\A 8:     url(\"../../assets/whitebg.jpg\");\A 9:     overflow: hidden;\A 10:     background-size: cover;\A 11:     background-repeat: no-repeat;   \A 12:     color: $main-color; \A 13:     border-right: 2em solid $second-color;\A 14:  } \A 15:  \A 16: .heading-text {   \A 17:     font-family: 'Ribeye Marrow', cursive; "; }
+  content: "Error: Undefined mixin 'container-style'.\A         on line 2 of src/styles/scss/Tech.scss, in `container-style'\A         from line 2 of src/styles/scss/Tech.scss\A \A 1: .tech-container {\A 2: @include container-style;\A 3: border-right: 2em solid $main-color;\A 4: }"; }

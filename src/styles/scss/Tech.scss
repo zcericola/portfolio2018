@@ -1,0 +1,4 @@
+.tech-container {
+@include container-style;
+border-right: 2em solid $main-color;
+}
