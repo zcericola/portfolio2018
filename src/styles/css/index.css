@@ -1,260 +1,64 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box; }
+/*
+Error: File to import not found or unreadable: font-mfizz.
+       Load path: C:/Users/zcher/DevMountain/portfolio/portfolio2018/src/styles/scss
+        on line 10 of src/styles/scss/index.scss
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block; }
+5: @import 'Footer';
+6: @import 'About';
+7: @import 'Projects';
+8: @import 'Contact';
+9: @import 'Tech';
+10: @import 'font-mfizz';
+11: 
+12: body {
+13:   margin: 0;
+14:   padding: 0;
+15:   font-family: sans-serif;
 
-body {
-  line-height: 1; }
-
-ol,
-ul {
-  list-style: none; }
-
-blockquote,
-q {
-  quotes: none; }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-.app {
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 10vh;
-  background-color: #F3FBFF; }
-
-.home-container {
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(rgba(243, 251, 255, 0.9) rgba(243, 251, 255, 0.7), rgba(243, 251, 255, 0.9)), url("../../assets/whitebg.jpg");
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #10321c;
-  border-right: 2em solid #C0B283; }
-
-.heading-text {
-  font-family: 'Ribeye Marrow', cursive;
-  float: left;
-  text-align: left;
-  padding: 1em;
-  margin: 2em 0;
-  padding: 5em; }
-
-.heading-text > h1 {
-  font-size: 5em;
-  color: #C0B283; }
-
-.heading-text > h2 {
-  font-size: 4em; }
-
-.text {
-  color: #10321c;
-  width: 60%;
-  margin: 2em;
-  font-family: "Oldenburg", sans-serif;
-  font-size: 2em;
-  float: left;
-  text-align: justify;
-  line-height: 2em; }
-
-.header-container {
-  padding: 1em;
-  height: 5vh;
-  font-family: "Oldenburg", sans-serif;
-  background-color: #F3FBFF;
-  padding: 1.5em;
-  color: #10321c;
-  font-size: 1.5em; }
-
-#nav-bar {
-  display: flex;
-  float: right; }
-
-#logo {
-  float: left; }
-
-.nav-element {
-  margin: 0 1em; }
-
-.nav-element:hover {
-  border-bottom: 3px solid #C0B283;
-  cursor: pointer; }
-
-.footer-container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 5vh;
-  padding: 1em;
-  color: #10321c;
-  text-align: center;
-  font-family: "Oldenburg", sans-serif;
-  background-color: #F3FBFF;
-  padding: 1.5em;
-  font-size: 1.5em; }
-
-.about-container {
-  width: 100%;
-  background-color: #10321c;
-  height: 100vh; }
-
-#about {
-  float: right;
-  color: #C0B283;
-  text-align: justify; }
-
-.projects-container {
-  min-height: 100vh;
-  height: 100%;
-  width: 100%;
-  padding: 1em;
-  color: #10321c;
-  font-style: 'Oldenberg', sans-serif; }
-
-.title {
-  font-family: "Ribeye Marrow", cursive;
-  font-size: 5em; }
-
-.cards-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.card {
-  height: 400px;
-  width: 90%;
-  padding: 2em;
-  background-color: #C0B283;
-  margin: 1.5em;
-  border-radius: 5px; }
-
-.card-title {
-  font-size: 3em;
-  font-family: "Oldenburg", sans-serif; }
-
-.card:hover {
-  background-color: #a39153; }
-
-.tech-container {
-  min-height: 100vh;
-  height: 100%;
-  width: 100%;
-  padding: 1em;
-  color: #10321c;
-  font-style: 'Oldenberg', sans-serif;
-  border-right: 2em solid #10321c; }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif; }
-
-/*# sourceMappingURL=index.css.map */
+Backtrace:
+src/styles/scss/index.scss:10
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: font-mfizz.\A        Load path: C:/Users/zcher/DevMountain/portfolio/portfolio2018/src/styles/scss\A         on line 10 of src/styles/scss/index.scss\A \A 5: @import 'Footer';\A 6: @import 'About';\A 7: @import 'Projects';\A 8: @import 'Contact';\A 9: @import 'Tech';\A 10: @import 'font-mfizz';\A 11: \A 12: body {\A 13:   margin: 0;\A 14:   padding: 0;\A 15:   font-family: sans-serif;"; }
