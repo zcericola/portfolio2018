@@ -11,6 +11,7 @@ class Header extends Component {
         <ul id = 'nav-bar'>
             <li className = 'nav-element'>About</li>
             <li className = 'nav-element'>Projects</li>
+            <li className = 'nav-element'>Tech</li>
             <li className = 'nav-element'>Contact</li>         
         </ul>
         </div>)

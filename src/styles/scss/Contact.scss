@@ -1,0 +1,39 @@
+.contact-container {
+    @include container-style;
+    background-color: $second-color;
+    //slants the top of the container dynamically
+    padding: 3em;
+    clip-path: polygon(
+    0 0,
+    100% calc(10vh),
+    100% 100%,
+    0 100%
+  );
+
+}
+
+.contact-icons {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 5px solid blue;
+}
+
+
+
+.contact-info {
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    
+}
+
+.contact-item {
+    font-family: $main-font;
+    font-size: 2em;
+    
+}
+

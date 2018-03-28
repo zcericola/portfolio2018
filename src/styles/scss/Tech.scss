@@ -1,10 +1,33 @@
 .tech-container {
 @include container-style;
-border-right: 2em solid $main-color;
 }
 
+.tech-icons {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    margin-left: 1.5em;
+    
+}
+
+
 i {
-    height: 500px;
-    width: 400px;
-    color: tomato;
+    font-size: 8em;    
+     color: $main-color;
+     width: 15%;
+     margin: .2em;
+     
+}
+
+.tag {
+    display: none;
+    height: 1em;
+    width: 4em;
+}
+
+.icon:hover {
+    color: $second-color;
+    @include hover-style;
 }

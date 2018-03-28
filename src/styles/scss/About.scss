@@ -2,7 +2,16 @@
 width: 100%;
 background-color: $main-color;
 height: 100vh;
+// angles the bottom of the container dynamically
+clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 6vw)
+  );
 }
+
+
 
 
 #about {

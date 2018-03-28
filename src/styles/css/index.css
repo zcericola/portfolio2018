@@ -186,6 +186,7 @@ table {
 
 .nav-element:hover {
   border-bottom: 3px solid #C0B283;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
   cursor: pointer; }
 
 .footer-container {
@@ -204,7 +205,8 @@ table {
 .about-container {
   width: 100%;
   background-color: #10321c;
-  height: 100vh; }
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw)); }
 
 #about {
   float: right;
@@ -241,7 +243,37 @@ table {
   font-family: "Oldenburg", sans-serif; }
 
 .card:hover {
-  background-color: #a39153; }
+  background-color: #a39153;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+.contact-container {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  color: #10321c;
+  font-style: 'Oldenberg', sans-serif;
+  background-color: #C0B283;
+  padding: 3em;
+  clip-path: polygon(0 0, 100% calc(10vh), 100% 100%, 0 100%); }
+
+.contact-icons {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 5px solid blue; }
+
+.contact-info {
+  width: 50%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid red; }
+
+.contact-item {
+  font-family: "Oldenburg", sans-serif;
+  font-size: 2em; }
 
 .tech-container {
   min-height: 100vh;
@@ -249,13 +281,30 @@ table {
   width: 100%;
   padding: 1em;
   color: #10321c;
-  font-style: 'Oldenberg', sans-serif;
-  border-right: 2em solid #10321c; }
+  font-style: 'Oldenberg', sans-serif; }
+
+.tech-icons {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 1.5em; }
 
 i {
-  height: 500px;
-  width: 400px;
-  color: tomato; }
+  font-size: 8em;
+  color: #10321c;
+  width: 15%;
+  margin: .2em; }
+
+.tag {
+  display: none;
+  height: 1em;
+  width: 4em; }
+
+.icon:hover {
+  color: #C0B283;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
 
 body {
   margin: 0;

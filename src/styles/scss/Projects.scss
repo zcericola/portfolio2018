@@ -2,6 +2,7 @@
  @include container-style;
 }
 
+
 .title {
     font-family: $head-font;
     font-size: 5em;
@@ -29,4 +30,5 @@
 
 .card:hover {
     background-color: darken($second-color, 15%);
+    @include hover-style;
 }
