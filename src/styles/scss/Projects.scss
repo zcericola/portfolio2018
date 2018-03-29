@@ -16,8 +16,7 @@
 
 .card {
     height: 400px;
-    width: 90%;
-    padding: 2em;
+    width: 90%;   
     background-color: $second-color;
     margin: 1.5em;
     border-radius: 5px;
@@ -26,9 +25,52 @@
 .card-title {
     font-size: 3em;
     font-family: $main-font;
+    margin-bottom: 1em;
 }
 
 .card:hover {
     background-color: darken($second-color, 15%);
     @include hover-style;
+}
+
+.info-box {
+    float: left;
+    padding: 2em;
+    height: inherit;
+    width: 50%;
+    
+}
+
+.image-box {
+    float: right;
+    height: inherit;
+    width: 50%;
+    padding: 1em;
+ 
+    
+    
+}
+
+.screenshot {
+    display: block;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project-btn {
+    font-family: $main-font;
+    font-size: 1em;  
+    cursor: pointer;
+    background-color: $main-color;
+    color: $second-color;
+    height: 3em;
+    width: 10em;
+    margin: 6em 1em;
+    border-radius: 50px;
+    outline: 0;
+    border: none;
+    
+
+    
 }

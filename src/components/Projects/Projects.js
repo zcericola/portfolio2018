@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+//require the images for the project cards
+const artifactFrame = require('../../assets/artifactframe.png');
+
 class Projects extends Component {
     constructor(){
         super();
@@ -9,16 +12,21 @@ class Projects extends Component {
     }
 
     displayProjects(){
-        const projects = [{ title: "Artifact Fine Goods", img: "image", desc: "Artifact is a fictional fullstack e-commerce website" }, { title: "LookBook", img: "image", desc: "A full-stack book search application." }, { title: "Data Store App", img: "image", desc: "An app that replicates a physical filing cabinet for storing important things." }, { title: "Group Project", img: "image", desc: "A project that I worked on with a team of n other developers." }, { title: "name", img: "image", desc: "desc" }];
+        const projects = [{ title: "Artifact Fine Goods", img: `${artifactFrame}`, desc: "Artifact is a fictional fullstack e-commerce website" }, { title: "LookBook", img: "image", desc: "A full-stack book search application." }, { title: "Data Store App", img: "image", desc: "An app that replicates a physical filing cabinet for storing important things." }, { title: "Group Project", img: "image", desc: "A project that I worked on with a team of n other developers." }];
         
 
         return projects.map((curr, index) => {
             return(<div className = 'card' key = {index}>
+            <div className = 'info-box'>
             <h1 className = 'card-title'>{curr.title}</h1>
             <p>{curr.desc}</p>
-            
+            <button className = 'project-btn'>Github Code</button>
+            <button className = 'project-btn'>Live Site</button>
             </div>
-            );
+            <div className = 'image-box'>
+            <img src = {curr.img} className = 'screenshot'/>
+                </div>            
+            </div>);
         })
 
     }

@@ -2,7 +2,7 @@
 Error: Undefined variable: "$main-color".
         on line 12 of src/styles/scss/Home.scss
 
-7:       rgba(243, 251, 255, 0.9)),
+7:       rgba(243, 251, 255, 0.6)),
 8:     url("../../assets/whitebg.jpg");
 9:     overflow: hidden;
 10:     background-size: cover;
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 12 of src/styles/scss/Home.scss\A \A 7:       rgba(243, 251, 255, 0.9)),\A 8:     url(\"../../assets/whitebg.jpg\");\A 9:     overflow: hidden;\A 10:     background-size: cover;\A 11:     background-repeat: no-repeat;   \A 12:     color: $main-color; \A 13:     border-right: 2em solid $second-color;\A 14:  } \A 15:  \A 16: .heading-text {   \A 17:     font-family: 'Ribeye Marrow', cursive; "; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 12 of src/styles/scss/Home.scss\A \A 7:       rgba(243, 251, 255, 0.6)),\A 8:     url(\"../../assets/whitebg.jpg\");\A 9:     overflow: hidden;\A 10:     background-size: cover;\A 11:     background-repeat: no-repeat;   \A 12:     color: $main-color; \A 13:     border-right: 2em solid $second-color;\A 14:  } \A 15:  \A 16: .heading-text {   \A 17:     font-family: 'Ribeye Marrow', cursive; "; }
