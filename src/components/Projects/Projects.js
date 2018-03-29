@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 //require the images for the project cards
 const artifactFrame = require('../../assets/artifactframe.png');
+const bookSpy = require('../../assets/bookspy.png');
 
 class Projects extends Component {
     constructor(){
@@ -12,7 +13,7 @@ class Projects extends Component {
     }
 
     displayProjects(){
-        const projects = [{ title: "Artifact Fine Goods", img: `${artifactFrame}`, desc: "Artifact is a fictional fullstack e-commerce website" }, { title: "LookBook", img: "image", desc: "A full-stack book search application." }, { title: "Data Store App", img: "image", desc: "An app that replicates a physical filing cabinet for storing important things." }, { title: "Group Project", img: "image", desc: "A project that I worked on with a team of n other developers." }];
+        const projects = [{ title: "Artifact Fine Goods", img: `${artifactFrame}`, desc: "Artifact is a fictional fullstack e-commerce website" }, { title: "BookSpy", img: `${bookSpy}`, desc: "A full-stack book search application." }, { title: "Data Store App", img: "image", desc: "An app that replicates a physical filing cabinet for storing important things." }, { title: "Group Project", img: "image", desc: "A project that I worked on with a team of n other developers." }];
         
 
         return projects.map((curr, index) => {
