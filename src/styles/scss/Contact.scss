@@ -12,22 +12,14 @@
 
 }
 
-.contact-icons {
-    float: left;
-    display: flex;
-    flex-direction: column;
+
+
+
+.contact {
     width: 50%;
-    border: 5px solid blue;
-}
-
-
-
-.contact-info {
-    width: 50%;
-    float: right;
     display: flex;
-    flex-direction: column;
-    border: 5px solid red;
+    flex-direction: row;
+    align-items: center;
     
 }
 

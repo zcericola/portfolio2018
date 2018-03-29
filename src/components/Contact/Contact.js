@@ -1,20 +1,19 @@
 import React from 'react';
 
 const Contact = (props) => {
-    return(<div className = 'contact-container'>
-        <h1 className = 'title'>/Contact</h1>
-        <div className = 'contact-icons'>
-         <i class="fas fa-envelope"></i>
-         <i class="fab fa-github"></i>
-         </div>
-         <div className = 'contact-info'>
-        <ul>
-           <li className = "contact-item">zcericola@gmail.com</li>
-           <li className = "contact-item">github.com/zcericola</li>            
-        </ul>
+    return <div className="contact-container">
+        <h1 className="title">/Contact</h1>
+        <div className="contact">
+          <i class="fas fa-envelope" />
+
+          <span className="contact-item">zcericola@gmail.com</span>
         </div>
-        
-    </div>)
+        <div className="contact">
+          <i class="fab fa-github" />          
+            <span className="contact-item">github.com/zcericola</span>
+          
+        </div>
+      </div>;
 };
 
 export default Contact;
