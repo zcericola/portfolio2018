@@ -264,6 +264,7 @@ table {
   align-items: center; }
 
 .contact-item {
+  margin-left: 2em;
   font-family: "Oldenburg", sans-serif;
   font-size: 2em; }
 
