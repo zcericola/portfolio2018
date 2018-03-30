@@ -23,10 +23,10 @@ $main-font: 'Oldenburg', sans-serif;
 }
 
 @mixin container-style {
-    min-height: 100vh;
+    min-height: 90vh;
     height: 100%;
     width: 100%;
-    padding: 1em;
+    padding: 5em;
     color: $main-color;    
     font-style: 'Oldenberg', sans-serif;
 }

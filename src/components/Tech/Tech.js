@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const Tech = (props) => {
-    return <div className="tech-container">
+    return <div id="tech">
         <h1 className="title">/Tech</h1>
         <content className ='tech-icons'>
         <i className="icon-html5-alt icon"></i>

@@ -3,16 +3,16 @@ import React,{Component} from 'react';
 class Home extends Component {   
 
     render(){
-        return <div className="home-container">
+        return <div id="home">
             <section className="heading-text">
               <h1>Hi, I'm Zac.</h1>             
             
-              <p className="text">
+              <p className="text" id = 'about'>
                 A full stack web developer who specializes in
                 Javascript. I build dynamic web applications that pair clean, well commented code with no-nonsense design.
-              </p>
+              </p>              
             </section>
-            <span></span>
+           <a href = '#about-text'><i className="fas fa-angle-down" id = 'arrow'></i></a>          
            
           </div>;
     }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = (props) => {
-    return <div className="contact-container">
+    return <div id="contact">
         <h1 className="title">/Contact</h1>
         <div className="contact">
           <i class="fas fa-envelope" />
@@ -9,7 +9,7 @@ const Contact = (props) => {
           <span className="contact-item">zcericola@gmail.com</span>
         </div>
         <div className="contact">
-          <i class="fab fa-github" />          
+          <i className="fab fa-github" />          
             <span className="contact-item">github.com/zcericola</span>
           
         </div>

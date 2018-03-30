@@ -1,8 +1,8 @@
-.contact-container {
+#contact {
     @include container-style;
     background-color: $second-color;
     //slants the top of the container dynamically
-    padding: 3em;
+    // padding: 4em;
     clip-path: polygon(
     0 0,
     100% calc(10vh),

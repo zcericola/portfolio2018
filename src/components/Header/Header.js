@@ -4,15 +4,15 @@ class Header extends Component {
    
 
     render(){
-        return(<div className = 'header-container'>
+        return(<div id = 'header'>
         <ul id = 'logo'>
-            <li className = 'nav-element'>Home</li>
+            <a href = '#'><li className = 'nav-element'>Home</li></a>
         </ul>
         <ul id = 'nav-bar'>
-            <li className = 'nav-element'>About</li>
-            <li className = 'nav-element'>Projects</li>
-            <li className = 'nav-element'>Tech</li>
-            <li className = 'nav-element'>Contact</li>         
+            <a href = '/#about'><li className = 'nav-element'>About</li></a>
+            <a href = '/#projects'><li className = 'nav-element'>Projects</li></a>
+            <a href = '#tech'><li className = 'nav-element'>Tech</li></a>
+            <a href = '/#contact'><li className = 'nav-element'>Contact</li></a>         
         </ul>
         </div>)
     }

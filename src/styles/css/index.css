@@ -130,7 +130,7 @@ table {
   padding-bottom: 10vh;
   background-color: #F3FBFF; }
 
-.home-container {
+#home {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(243, 251, 255, 0.8) rgba(243, 251, 255, 0.7), rgba(243, 251, 255, 0.6)), url("../../assets/whitebg.jpg");
@@ -152,9 +152,6 @@ table {
   font-size: 5em;
   color: #C0B283; }
 
-.heading-text > h2 {
-  font-size: 4em; }
-
 .text {
   color: #10321c;
   width: 60%;
@@ -165,7 +162,29 @@ table {
   text-align: justify;
   line-height: 2em; }
 
-.header-container {
+#arrow {
+  position: absolute;
+  top: 9.5em;
+  left: 9.5em;
+  display: block;
+  font-size: 5em;
+  margin: 0 auto;
+  text-align: center;
+  color: #d1c7a5;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate; }
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px); }
+  to {
+    transform: translateY(-15px); } }
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px); }
+  to {
+    transform: translateY(-15px); } }
+#header {
   padding: 1em;
   height: 5vh;
   font-family: "Oldenburg", sans-serif;
@@ -191,6 +210,10 @@ table {
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
   cursor: pointer; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .footer-container {
   position: absolute;
   bottom: 0;
@@ -204,22 +227,22 @@ table {
   padding: 1.5em;
   font-size: 1.5em; }
 
-.about-container {
+#about-two {
   width: 100%;
   background-color: #10321c;
   height: 100vh;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw)); }
 
-#about {
+#about-text {
   float: right;
   color: #C0B283;
   text-align: justify; }
 
-.projects-container {
-  min-height: 100vh;
+#projects {
+  min-height: 90vh;
   height: 100%;
   width: 100%;
-  padding: 1em;
+  padding: 5em;
   color: #10321c;
   font-style: 'Oldenberg', sans-serif; }
 
@@ -261,9 +284,9 @@ table {
   padding: 1em; }
 
 .screenshot {
-  display: block;
-  height: 100%;
-  width: 80%;
+  height: 365px;
+  width: 500px;
+  border-radius: 5px;
   margin: 0 auto; }
 
 .project-btn {
@@ -279,15 +302,14 @@ table {
   outline: 0;
   border: none; }
 
-.contact-container {
-  min-height: 100vh;
+#contact {
+  min-height: 90vh;
   height: 100%;
   width: 100%;
-  padding: 1em;
+  padding: 5em;
   color: #10321c;
   font-style: 'Oldenberg', sans-serif;
   background-color: #C0B283;
-  padding: 3em;
   clip-path: polygon(0 0, 100% calc(10vh), 100% 100%, 0 100%); }
 
 .contact {
@@ -301,11 +323,11 @@ table {
   font-family: "Oldenburg", sans-serif;
   font-size: 2em; }
 
-.tech-container {
-  min-height: 100vh;
+#tech {
+  min-height: 90vh;
   height: 100%;
   width: 100%;
-  padding: 1em;
+  padding: 5em;
   color: #10321c;
   font-style: 'Oldenberg', sans-serif; }
 
