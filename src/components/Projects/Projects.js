@@ -26,7 +26,7 @@ class Projects extends Component {
             <button className = 'project-btn'>Live Site</button>
             </div>
             <div className = 'image-box'>
-            <img src = {curr.img} className = 'screenshot'/>
+            <img src = {curr.img} className = 'screenshot' alt = 'screenshot'/>
                 </div>            
             </div>);
         })

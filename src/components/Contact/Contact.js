@@ -4,7 +4,7 @@ const Contact = (props) => {
     return <div id="contact">
         <h1 className="title">/Contact</h1>
         <div className="contact">
-          <i class="fas fa-envelope" />
+          <i className="fas fa-envelope" />
 
           <span className="contact-item">zcericola@gmail.com</span>
         </div>

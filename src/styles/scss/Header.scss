@@ -1,38 +1,96 @@
-#header {    
-    padding: 1em;        
-    height: 5vh;
+    #header {    
+    padding: 1.5em;     
+    height: 10vh;
     @include nav-font-style;
-    color: $main-color;
-     font-size: 1.5em;
-     background-color: $white;       
-     border-right: 1.35em solid $second-color;
-       
-       
+    color: $second-color;     
+     background-color: $main-color;       
 }
 
 #nav-bar {
-    display: flex;
-    float: right;
+    display: none;    
 }
+
 
 #logo {
     float: left;
     
 }
 
-.nav-element {
-    margin: 0 1em;
-
-}
-
-.nav-element:hover {
-    border-bottom: 3px solid $second-color;
-    @include hover-style;
-    cursor: pointer;
-}
 
 a {
     text-decoration: none;
     color: inherit;
     
+}
+
+#hamburger-menu {   
+    width: inherit;   
+    color: $second-color;
+    font-size: inherit; 
+    float: right;   
+}
+
+
+
+.mobile-drop-down {
+    position: absolute; 
+    top: 3em;     
+    width: 80vw;
+    display: none;
+    background-color: $second-color;
+    color: $main-color;        
+    padding: .3em;    
+    border-radius: 5px;
+    text-align: center;
+    transition-timing-function: ease;
+    
+}
+
+.mobile-drop-down li {
+    margin-bottom: 1.5em;
+}
+
+.show-drop-down {
+    display: block; 
+    z-index: 99;
+    
+        
+   
+     
+}
+
+ @media only screen and (min-width : 768px) {
+     #hamburger-menu {
+    display: none;
+}
+.nav-element {
+    margin: 0 .7em;
+
+}
+
+.nav-element:hover {
+    border-bottom: 3px solid $second-color;
+}
+
+
+#nav-bar {
+    display: flex;
+    float: right;
+    margin-left: 1em;  
+}
+
+
+
+    }
+
+
+@media only screen and (min-width : 992px) {
+    #header {
+    font-size: 2em;
+}
+
+.nav-element {
+    margin: 0 1em;
+}
+
 }
