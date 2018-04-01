@@ -5,7 +5,7 @@ Error: Undefined variable: "$main-color".
 1: #about-two {
 2: width: 100%;
 3: background-color: $main-color;
-4: height: 100vh;
+4: height: 50vh;
 5:   border: 5px solid yellowgreen;
 6: }
 7: 
@@ -66,4 +66,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color\".\A         on line 3 of src/styles/scss/About.scss\A \A 1: #about-two {\A 2: width: 100%;\A 3: background-color: $main-color;\A 4: height: 100vh;\A 5:   border: 5px solid yellowgreen;\A 6: }\A 7: \A 8: "; }
+  content: "Error: Undefined variable: \"$main-color\".\A         on line 3 of src/styles/scss/About.scss\A \A 1: #about-two {\A 2: width: 100%;\A 3: background-color: $main-color;\A 4: height: 50vh;\A 5:   border: 5px solid yellowgreen;\A 6: }\A 7: \A 8: "; }

@@ -2,18 +2,31 @@
     @include container-style;
     background-color: $second-color;
     //slants the top of the container dynamically
-    // padding: 4em;
-    clip-path: polygon(
-    0 0,
-    100% calc(10vh),
-    100% 100%,
-    0 100%
-  );
+    padding: 1em;
+    height: 80vh;
+    
+  }
 
-}
+  .contact-pic {
+      font-size: 5em;
+  }
+
+  .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+  }
+
+  .contact-item {
+    font-family: $main-font;
+    font-size: 1.1em;
+  }
 
 
 
+ @media only screen and (min-width : 768px) {
 
 .contact {
     width: 50%;
@@ -21,12 +34,13 @@
     flex-direction: row;
     align-items: center;
     
+    
 }
 
 .contact-item {
     margin-left: 2em;
-    font-family: $main-font;
-    font-size: 2em;
+   
     
 }
 
+}

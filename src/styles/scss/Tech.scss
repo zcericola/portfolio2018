@@ -20,13 +20,14 @@ i {
     display: block;    
     font-size: 8em;    
      color: $main-color;
-     margin: .2em auto;
+     margin: .3em auto;
+     border: 2px solid orange;
      
 }
 
- @media only screen and (min-width : 768px) {
+@media only screen and (min-width: 480px){
 
-.tech-icons {
+    .tech-icons {
     padding: 1em;
     display: flex;
     flex-direction: row;
@@ -36,23 +37,29 @@ i {
     
 }
 
-
 i {
-    font-size: 8em;    
-     color: $main-color;
-     width: 15%;
-     margin: .2em;
-     
+    margin: .2em .3em;
+
 }
 
-.tag {
-    display: none;
-    height: 1em;
-    width: 4em;
-}
 
 .icon:hover {
     color: $second-color;
     @include hover-style;
 }
+
+
+}
+
+ @media only screen and (min-width : 768px) {
+
+
+i {  
+     width: 15%;
+
+     
+}
+
+
+
  }
