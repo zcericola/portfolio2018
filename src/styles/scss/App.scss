@@ -16,7 +16,6 @@ $main-font: 'Oldenburg', sans-serif;
     min-height: 90vh;
     height: 100%;
     width: 100%;
-    padding: 5em;
     color: $main-color;    
     font-style: 'Oldenberg', sans-serif;
 }
@@ -29,7 +28,7 @@ $main-font: 'Oldenburg', sans-serif;
     height: 100%;
     overflow: hidden;
     position: relative;
-    padding-bottom: 10vh;
+    // padding-bottom: 10vh;
     background-color: $white;
 
       }

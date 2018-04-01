@@ -127,7 +127,6 @@ table {
   height: 100%;
   overflow: hidden;
   position: relative;
-  padding-bottom: 10vh;
   background-color: #F3FBFF; }
 
 #home {
@@ -148,25 +147,20 @@ table {
 .heading-text > h1 {
   font-size: 3.5em;
   text-align: center;
-  color: #C0B283;
-  margin-bottom: .5em; }
+  color: #C0B283; }
 
 .text {
   color: #10321c;
   width: 100%;
   font-family: "Oldenburg", sans-serif;
-  font-size: 1.2em;
-  text-align: justify;
-  line-height: 2em;
+  font-size: 1.5em;
+  line-height: 1.5em;
   border: 2px solid red; }
 
 #arrow {
-  float: both;
   display: block;
   position: relative;
-  font-size: 4em;
-  width: inherit;
-  margin: 0 auto;
+  top: 1em;
   text-align: center;
   color: #d1c7a5;
   animation: bounce 1s infinite alternate;
@@ -304,19 +298,19 @@ a {
 #about-text {
   padding: 1em;
   color: #C0B283;
-  text-align: justify; }
+  width: auto; }
 
 #projects {
   min-height: 90vh;
   height: 100%;
   width: 100%;
-  padding: 5em;
   color: #10321c;
-  font-style: 'Oldenberg', sans-serif; }
+  font-style: 'Oldenberg', sans-serif;
+  padding: 1em; }
 
 .title {
   font-family: "Ribeye Marrow", cursive;
-  font-size: 5em; }
+  font-size: 2em; }
 
 .cards-container {
   display: flex;
@@ -325,13 +319,13 @@ a {
 
 .card {
   height: 400px;
-  width: 90%;
+  width: 100%;
   background-color: #C0B283;
-  margin: 1.5em;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin: 1.5em; }
 
 .card-title {
-  font-size: 3em;
+  font-size: 2em;
   font-family: "Oldenburg", sans-serif;
   margin-bottom: 1em; }
 
@@ -340,33 +334,28 @@ a {
   transition: background-color 0.3s ease-in, color 0.3s ease-in; }
 
 .info-box {
-  float: left;
-  padding: 2em;
-  height: inherit;
-  width: 50%; }
+  padding: 1em;
+  height: inherit; }
 
 .image-box {
-  float: right;
   height: inherit;
-  width: 50%;
   padding: 1em; }
 
 .screenshot {
-  height: 365px;
-  width: 500px;
+  height: 400px;
+  width: 250px;
   border-radius: 5px;
   margin: 0 auto; }
 
 .project-btn {
   font-family: "Oldenburg", sans-serif;
-  font-size: 1em;
+  font-size: 15px;
   cursor: pointer;
   background-color: #10321c;
   color: #C0B283;
-  height: 3em;
-  width: 10em;
-  margin: 6em 1em;
-  border-radius: 50px;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
   outline: 0;
   border: none; }
 
@@ -374,7 +363,6 @@ a {
   min-height: 90vh;
   height: 100%;
   width: 100%;
-  padding: 5em;
   color: #10321c;
   font-style: 'Oldenberg', sans-serif;
   background-color: #C0B283;
@@ -395,7 +383,6 @@ a {
   min-height: 90vh;
   height: 100%;
   width: 100%;
-  padding: 5em;
   color: #10321c;
   font-style: 'Oldenberg', sans-serif; }
 
