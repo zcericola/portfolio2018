@@ -137,32 +137,35 @@ table {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #10321c; }
+  color: #10321c;
+  border: 5px solid orange; }
 
 .heading-text {
   font-family: 'Ribeye Marrow', cursive;
-  height: 70vh;
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto; }
 
 .heading-text > h1 {
   font-size: 3.5em;
   text-align: center;
   color: #C0B283;
-  margin-bottom: 1; }
+  margin-bottom: .5em; }
 
 .text {
   color: #10321c;
   width: 100%;
   font-family: "Oldenburg", sans-serif;
-  font-size: 1.5em;
-  text-align: left;
-  line-height: 2em; }
+  font-size: 1.2em;
+  text-align: justify;
+  line-height: 2em;
+  border: 2px solid red; }
 
 #arrow {
+  float: both;
   display: block;
-  height: inherit;
-  font-size: 5em;
+  position: relative;
+  font-size: 4em;
+  width: inherit;
   margin: 0 auto;
   text-align: center;
   color: #d1c7a5;
@@ -295,10 +298,11 @@ a {
   width: 100%;
   background-color: #10321c;
   height: 100vh;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw)); }
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
+  border: 5px solid yellowgreen; }
 
 #about-text {
-  float: right;
+  padding: 1em;
   color: #C0B283;
   text-align: justify; }
 

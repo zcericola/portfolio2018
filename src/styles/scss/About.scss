@@ -9,13 +9,15 @@ clip-path: polygon(
     100% 100%,
     0 calc(100% - 6vw)
   );
+  border: 5px solid yellowgreen;
 }
 
 
 
 
 #about-text {
-    float: right;
+    padding: 1em;
     color: $second-color;
     text-align: justify;
+    
 }

@@ -9,13 +9,13 @@
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;   
-    color: $main-color;    
+    color: $main-color; 
+    border: 5px solid orange;   
  } 
 
 .heading-text {   
-    font-family: 'Ribeye Marrow', cursive;    
-    height: 70vh; 
-    padding: 2em;
+    font-family: 'Ribeye Marrow', cursive;     
+    padding: 1em;
     margin: 0 auto;
 }
 
@@ -23,28 +23,32 @@
      font-size: 3.5em;
      text-align: center;
      color: $second-color;
-     margin-bottom:  1em;
+     margin-bottom:  .5em;
 }
 
 .text {  
     color: $main-color; 
     width: 100%;  
     font-family: $main-font;
-    font-size: 1.5em;    
-    text-align: left;
-    line-height: 2em;   
+    font-size: 1.2em;    
+    text-align: justify;
+    line-height: 2em;  
+    border: 2px solid red; 
 }
 
-#arrow {   
+#arrow {    
+    float: both;
     display: block;
-    height: inherit;
-    font-size: 5em;
+    position: relative;
+    font-size: 4em;
+    width: inherit;
     margin: 0 auto;
     text-align: center;
     color: lighten($second-color, 10%);
     animation: bounce 1s infinite alternate;
       -webkit-animation: bounce 1s infinite alternate;
 }
+
 
 @keyframes bounce {
   from {
