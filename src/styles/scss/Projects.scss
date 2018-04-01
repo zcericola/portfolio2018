@@ -1,12 +1,24 @@
 #projects {
  @include container-style;
- padding: 1em;
-}
-
+ padding: 2em 1em;
+ background-color: $second-color;
+  }
 
 .title {
     font-family: $head-font;
     font-size: 2em;
+}
+
+
+.screenshot {
+    position: relative; 
+    top: 1.0em;   
+    display: block;
+    height: 300px;  
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 auto;
+    
 }
 
 .cards-container {
@@ -16,16 +28,40 @@
 }
 
 .card {
-    height: 400px;
-    width: 100%;   
+    height: 400px; 
+    width: 100%;  
     background-color: $second-color;
     border-radius: 5px;
-    margin: 1.5em;
+    margin: 1em 0;
+    padding: 5px;
+    overflow: hidden;
 }
 
 .card-title {
     font-size: 2em;
+    text-align: center;
     font-family: $main-font;
+    margin-bottom: 10px;
+}
+
+.info-box {
+    text-align: center;
+    font-family: $main-font;
+}
+
+
+
+
+
+ @media only screen and (min-width : 768px) {  
+     
+
+.card {
+    padding: 1em;
+    margin: 1.5em 0;
+}
+
+.card-title {
     margin-bottom: 1em;
 }
 
@@ -41,31 +77,39 @@
 
 .image-box {
     height: inherit;
-    padding: 1em;
- 
-    
+    padding: 1em;   
     
 }
 
-.screenshot {    
-    height: 400px;  
-    width: 250px;
-    border-radius: 5px;
-    margin: 0 auto;
+.card {
+    height: auto;
+    width: 100%;
+
 }
 
-.project-btn {
-    font-family: $main-font;
-    font-size: 15px;  
-    cursor: pointer;
-    background-color: $main-color;
-    color: $second-color;
-    height: 50px;
-    width: 150px;
-    border-radius: 10px;
-    outline: 0;
-    border: none;
+// .screenshot {
+//     position: relative;    
+//     height: 200px;  
+//     width: 150px;
+//     border-radius: 5px;
+//     margin: 0 auto;
+//     z-index: 99;
+// }
+
+// .project-btn {
+//     font-family: $main-font;
+//     font-size: 15px;  
+//     cursor: pointer;
+//     background-color: $main-color;
+//     color: $second-color;
+//     height: 50px;
+//     width: 150px;
+//     border-radius: 10px;
+//     outline: 0;
+//     border: none;
     
 
     
+// }
+
 }

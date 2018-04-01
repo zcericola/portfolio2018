@@ -130,7 +130,7 @@ table {
   background-color: #F3FBFF; }
 
 #home {
-  height: 100vh;
+  height: auto;
   width: 100%;
   background: linear-gradient(rgba(243, 251, 255, 0.8) rgba(243, 251, 255, 0.7), rgba(243, 251, 255, 0.6)), url("../../assets/whitebg.jpg");
   overflow: hidden;
@@ -178,8 +178,7 @@ table {
     transform: translateY(-15px); } }
 @media only screen and (min-width: 480px) {
   .heading-text {
-    padding: 2em;
-    height: 70vh; }
+    padding: 2em; }
 
   .heading-text > h1 {
     font-size: 4em;
@@ -203,14 +202,14 @@ table {
   .text {
     width: 60%;
     margin: 1.5em;
-    font-size: 2em;
+    font-size: 1.9em;
     float: left; } }
 @media only screen and (min-width: 1200px) {
   .heading-text > h1 {
     font-size: 6em; }
 
   .text {
-    font-size: 2.5em; } }
+    font-size: 2.3em; } }
 #header {
   padding: 1.5em;
   height: 10vh;
@@ -292,7 +291,6 @@ a {
   width: 100%;
   background-color: #10321c;
   height: 100vh;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
   border: 5px solid yellowgreen; }
 
 #about-text {
@@ -300,17 +298,29 @@ a {
   color: #C0B283;
   width: auto; }
 
+@media only screen and (min-width: 480px) {
+  #about-two {
+    height: 100vh; } }
 #projects {
-  min-height: 90vh;
   height: 100%;
   width: 100%;
   color: #10321c;
   font-style: 'Oldenberg', sans-serif;
-  padding: 1em; }
+  padding: 2em 1em;
+  background-color: #C0B283; }
 
 .title {
   font-family: "Ribeye Marrow", cursive;
   font-size: 2em; }
+
+.screenshot {
+  position: relative;
+  top: 1.0em;
+  display: block;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 0 auto; }
 
 .cards-container {
   display: flex;
@@ -322,45 +332,44 @@ a {
   width: 100%;
   background-color: #C0B283;
   border-radius: 5px;
-  margin: 1.5em; }
+  margin: 1em 0;
+  padding: 5px;
+  overflow: hidden; }
 
 .card-title {
   font-size: 2em;
+  text-align: center;
   font-family: "Oldenburg", sans-serif;
-  margin-bottom: 1em; }
-
-.card:hover {
-  background-color: #a39153;
-  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+  margin-bottom: 10px; }
 
 .info-box {
-  padding: 1em;
-  height: inherit; }
+  text-align: center;
+  font-family: "Oldenburg", sans-serif; }
 
-.image-box {
-  height: inherit;
-  padding: 1em; }
+@media only screen and (min-width: 768px) {
+  .card {
+    padding: 1em;
+    margin: 1.5em 0; }
 
-.screenshot {
-  height: 400px;
-  width: 250px;
-  border-radius: 5px;
-  margin: 0 auto; }
+  .card-title {
+    margin-bottom: 1em; }
 
-.project-btn {
-  font-family: "Oldenburg", sans-serif;
-  font-size: 15px;
-  cursor: pointer;
-  background-color: #10321c;
-  color: #C0B283;
-  height: 50px;
-  width: 150px;
-  border-radius: 10px;
-  outline: 0;
-  border: none; }
+  .card:hover {
+    background-color: #a39153;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in; }
 
+  .info-box {
+    padding: 1em;
+    height: inherit; }
+
+  .image-box {
+    height: inherit;
+    padding: 1em; }
+
+  .card {
+    height: auto;
+    width: 100%; } }
 #contact {
-  min-height: 90vh;
   height: 100%;
   width: 100%;
   color: #10321c;
@@ -380,35 +389,50 @@ a {
   font-size: 2em; }
 
 #tech {
-  min-height: 90vh;
+  height: 100vh;
   height: 100%;
   width: 100%;
   color: #10321c;
-  font-style: 'Oldenberg', sans-serif; }
+  font-style: 'Oldenberg', sans-serif;
+  padding: 1em; }
 
 .tech-icons {
-  padding: 1em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-left: 1.5em; }
+  margin: 0 auto;
+  border: 5px solid red; }
 
 i {
+  display: block;
   font-size: 8em;
   color: #10321c;
-  width: 15%;
-  margin: .2em; }
+  margin: .2em auto; }
 
-.tag {
-  display: none;
-  height: 1em;
-  width: 4em; }
+@media only screen and (min-width: 768px) {
+  .tech-icons {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
 
-.icon:hover {
-  color: #C0B283;
-  transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+  i {
+    font-size: 8em;
+    color: #10321c;
+    width: 15%;
+    margin: .2em; }
 
+  .tag {
+    display: none;
+    height: 1em;
+    width: 4em; }
+
+  .icon:hover {
+    color: #C0B283;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in; } }
 body {
   margin: 0;
   padding: 0;

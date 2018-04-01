@@ -5,9 +5,9 @@ Error: Undefined mixin 'container-style'.
 
 1: #projects {
 2:  @include container-style;
-3:  padding: 1em;
-4: }
-5: 
+3:  padding: 2em 1em;
+4:  background-color: $second-color;
+5:   }
 6: 
 7: .title {
 
@@ -69,4 +69,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'container-style'.\A         on line 2 of src/styles/scss/Projects.scss, in `container-style'\A         from line 2 of src/styles/scss/Projects.scss\A \A 1: #projects {\A 2:  @include container-style;\A 3:  padding: 1em;\A 4: }\A 5: \A 6: \A 7: .title {"; }
+  content: "Error: Undefined mixin 'container-style'.\A         on line 2 of src/styles/scss/Projects.scss, in `container-style'\A         from line 2 of src/styles/scss/Projects.scss\A \A 1: #projects {\A 2:  @include container-style;\A 3:  padding: 2em 1em;\A 4:  background-color: $second-color;\A 5:   }\A 6: \A 7: .title {"; }

@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
 //require the images for the project cards
-const artifactFrame = require('../../assets/artifactframe.png');
-const bookSpy = require('../../assets/bookspy.png');
-const dataStore = require('../../assets/datastore.png')
+const artifactWeb = require('../../assets/artifactweb.png');
+const bookSpyWeb = require('../../assets/bookspyweb.png');
+const shelfieWeb = require('../../assets/shelfieweb.png');
 
 class Projects extends Component {
     constructor(){
@@ -14,21 +14,20 @@ class Projects extends Component {
     }
 
     displayProjects(){
-        const projects = [{ title: "Artifact Fine Goods", img: `${artifactFrame}`, desc: "Artifact is a fictional fullstack e-commerce website" }, { title: "BookSpy", img: `${bookSpy}`, desc: "A full-stack book search application." }, { title: "Data Store App", img: `${dataStore}`, desc: "An app that replicates a physical filing cabinet for storing important things." }];
+        const projects = [{ title: "Artifact Fine Goods", img: `${artifactWeb}`, desc: "Artifact is a fictional fullstack e-commerce website" }, { title: "BookSpy", img: `${bookSpyWeb}`, desc: "A full-stack book search application." }, { title: "Data Store App", img: `${shelfieWeb}`, desc: "An app that replicates a physical filing cabinet for storing important things." }];
         
 
         return projects.map((curr, index) => {
-            return(<div className = 'card' key = {index}>
-            <div className = 'info-box'>
-            <h1 className = 'card-title'>{curr.title}</h1>
-            <p>{curr.desc}</p>
-            <button className = 'project-btn'>Github Code</button>
-            <button className = 'project-btn'>Live Site</button>
-            </div>
-            <div className = 'image-box'>
-            <img src = {curr.img} className = 'screenshot' alt = 'screenshot'/>
-                </div>            
-            </div>);
+            return <div className="card" key={index}>
+                <div className="info-box">
+                  <h1 className="card-title">{curr.title}</h1>
+                  <p>{curr.desc}</p>
+                </div>
+                <div className="image-box">
+                  <img src={curr.img} className="screenshot" alt="screenshot" />
+                </div>
+
+              </div>;
         })
 
     }

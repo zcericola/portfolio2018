@@ -13,7 +13,6 @@ $main-font: 'Oldenburg', sans-serif;
 }
 
 @mixin container-style {
-    min-height: 90vh;
     height: 100%;
     width: 100%;
     color: $main-color;    
