@@ -22,7 +22,7 @@ class Header extends Component {
         return <div id="header">
             <ul id="logo">
               <a href="#logo">
-                <li className="nav-element">Home</li>
+                <li className="nav-element">Z.Cericola</li>
               </a>
             </ul>
             <ul id="nav-bar">
@@ -38,6 +38,9 @@ class Header extends Component {
               <a href="/#contact">
                 <li className="nav-element">Contact</li>
               </a>
+              <a href="/#resume">
+                <li className="nav-element">Resume</li>
+              </a>
             </ul>
             <i className="fas fa-bars" id="hamburger-menu" ref={menuBtn => (this.menuBtn = menuBtn)} onClick={this.handleClick} />
             <div className="mobile-drop-down" ref={dropDn => {
@@ -45,16 +48,19 @@ class Header extends Component {
               }}>
               <ul>
                 <a href="/#about">
-                  <li >About</li>
+                  <li>About</li>
                 </a>
                 <a href="/#projects">
-                  <li >Projects</li>
+                  <li>Projects</li>
                 </a>
                 <a href="#tech">
                   <li>Tech</li>
                 </a>
                 <a href="/#contact">
                   <li>Contact</li>
+                </a>
+                <a href ="/#resume">
+                <li>Resume</li>
                 </a>
               </ul>
             </div>

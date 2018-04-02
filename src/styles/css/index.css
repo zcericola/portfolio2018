@@ -127,17 +127,19 @@ table {
   height: 100%;
   overflow: hidden;
   position: relative;
-  background-color: #F3FBFF; }
+  background-color: #F3FBFF;
+  font-size: 10px; }
 
 #home {
   height: auto;
   width: 100%;
-  background: linear-gradient(rgba(243, 251, 255, 0.8) rgba(243, 251, 255, 0.7), rgba(243, 251, 255, 0.6)), url("../../assets/whitebg.jpg");
+  background: linear-gradient(rgba(243, 251, 255, 0.5) rgba(243, 251, 255, 0.4), rgba(243, 251, 255, 0.3)), url("../../assets/whitebg.jpg");
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
   color: #10321c;
-  border: 5px solid orange; }
+  border: 5px solid orange;
+  font-size: 1rem; }
 
 .heading-text {
   font-family: 'Ribeye Marrow', cursive;
@@ -223,7 +225,8 @@ table {
   display: none; }
 
 #logo {
-  float: left; }
+  float: left;
+  font-family: "Ribeye Marrow", cursive; }
 
 a {
   text-decoration: none;
@@ -278,7 +281,7 @@ a {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 5vh;
+  height: 10vh;
   padding: 1em;
   color: #10321c;
   text-align: center;
@@ -290,14 +293,9 @@ a {
 #about-two {
   width: 100%;
   background-color: #10321c;
-  height: 50vh;
-  border: 5px solid yellowgreen; }
-
-img {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-  float: left; }
+  height: 90vh;
+  border: 5px solid yellowgreen;
+  font-size: 1rem; }
 
 #about-text {
   padding: 1em;
@@ -311,20 +309,21 @@ img {
   height: 100%;
   width: 100%;
   color: #10321c;
-  font-style: 'Oldenberg', sans-serif;
+  font-style: "Oldenburg", sans-serif;
   padding: 2em 1em;
-  background-color: #C0B283; }
+  background-color: #C0B283;
+  font-size: 1rem; }
 
 .title {
   font-family: "Ribeye Marrow", cursive;
-  font-size: 2em; }
+  font-size: 2.5rem; }
 
 .screenshot {
   position: relative;
   top: 1.0em;
   display: block;
-  height: 300px;
-  width: 350px;
+  height: 275px;
+  width: 300px;
   border-radius: 5px;
   margin: 0 auto; }
 
@@ -334,28 +333,55 @@ img {
   align-items: center; }
 
 .card {
-  height: 400px;
+  height: auto;
   width: 100%;
   background-color: #C0B283;
   border-radius: 5px;
   margin: 1em 0;
-  padding: 5px;
-  overflow: hidden; }
+  padding: 5px; }
 
 .card-title {
-  font-size: 2em;
+  font-size: 1.9rem;
   text-align: center;
   font-family: "Oldenburg", sans-serif;
   margin-bottom: 10px; }
 
 .info-box {
   text-align: center;
-  font-family: "Oldenburg", sans-serif; }
+  font-family: "Oldenburg", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem; }
+
+.image-box {
+  text-align: center;
+  height: 450px;
+  border: 5px solid orange; }
+
+.code-btn {
+  position: relative;
+  top: 2rem;
+  outline: 0;
+  cursor: pointer;
+  border-color: #1c5932;
+  padding: .8rem;
+  font-family: "Oldenburg", sans-serif;
+  font-size: 1rem;
+  background-color: #10321c;
+  color: #C0B283;
+  border-radius: 10px; }
 
 @media only screen and (min-width: 768px) {
   .card {
     padding: 1em;
-    margin: 1.5em 0; }
+    margin: 1.5em 0;
+    border: 5px solid red; }
+
+  .screenshot {
+    height: 300px;
+    width: 325px;
+    position: relative;
+    top: 0;
+    display: block; }
 
   .card-title {
     margin-bottom: 1em; }
@@ -366,26 +392,49 @@ img {
 
   .info-box {
     padding: 1em;
-    height: inherit; }
+    height: inherit;
+    border: 5px solid slateblue;
+    float: left;
+    width: 50%; }
 
   .image-box {
-    height: inherit;
-    padding: 1em; }
+    border: 5px solid orangered;
+    float: right;
+    width: 50%; }
 
   .card {
     height: auto;
-    width: 100%; } }
+    width: 100%;
+    border: 5px solid yellow; }
+
+  .cards-container {
+    border: 5px solid blue; }
+
+  .code-btn {
+    position: relative;
+    top: 1rem;
+    outline: 0;
+    cursor: pointer;
+    border-color: #1c5932;
+    padding: 1rem;
+    font-family: "Oldenburg", sans-serif;
+    font-size: 1.1rem;
+    background-color: #10321c;
+    color: #C0B283;
+    border-radius: 10px; } }
 #contact {
   height: 100%;
   width: 100%;
   color: #10321c;
-  font-style: 'Oldenberg', sans-serif;
+  font-style: "Oldenburg", sans-serif;
   background-color: #C0B283;
   padding: 1em;
-  height: 80vh; }
+  font-size: 1rem;
+  height: 100vh; }
 
 .contact-pic {
-  font-size: 5em; }
+  font-size: 4rem;
+  margin: 1.8rem 0; }
 
 .contact {
   display: flex;
@@ -395,24 +444,38 @@ img {
 
 .contact-item {
   font-family: "Oldenburg", sans-serif;
-  font-size: 1.1em; }
+  font-size: 1.3rem; }
 
 @media only screen and (min-width: 768px) {
   .contact {
     width: 50%;
     display: flex;
     flex-direction: row;
-    align-items: center; }
+    align-items: center;
+    margin: 1rem auto; }
 
   .contact-item {
-    margin-left: 2em; } }
+    margin-left: 2em;
+    font-size: 2rem; }
+
+  .contact-pic {
+    margin: 1rem; } }
 #tech {
   height: 100vh;
   height: 100%;
   width: 100%;
   color: #10321c;
-  font-style: 'Oldenberg', sans-serif;
-  padding: 1em; }
+  font-style: "Oldenburg", sans-serif;
+  padding: 1em;
+  height: auto;
+  width: 100%;
+  background: linear-gradient(rgba(243, 251, 255, 0.5) rgba(243, 251, 255, 0.4), rgba(243, 251, 255, 0.3)), url("../../assets/whitebg.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #10321c;
+  border: 5px solid orange;
+  font-size: 1rem; }
 
 .tech-icons {
   display: flex;
@@ -423,7 +486,7 @@ img {
   margin: 0 auto;
   border: 5px solid red; }
 
-i {
+.icon {
   display: block;
   font-size: 8em;
   color: #10321c;
@@ -438,14 +501,14 @@ i {
     flex-wrap: wrap;
     justify-content: space-around; }
 
-  i {
+  .icon {
     margin: .2em .3em; }
 
   .icon:hover {
     color: #C0B283;
     transition: background-color 0.3s ease-in, color 0.3s ease-in; } }
 @media only screen and (min-width: 768px) {
-  i {
+  .icon {
     width: 15%; } }
 body {
   margin: 0;

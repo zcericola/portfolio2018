@@ -2,6 +2,19 @@
     height: 100vh;
     @include container-style;
     padding: 1em;
+    height: auto; 
+    width: 100%;
+    background: linear-gradient(
+      rgba(243, 251, 255, 0.5)  
+      rgba(243, 251, 255, 0.4),
+      rgba(243, 251, 255, 0.3)),
+    url("../../assets/whitebg.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    color: $main-color; 
+    border: 5px solid orange;   
+    font-size: 1rem;
      
 }
 
@@ -16,7 +29,7 @@
    
 }
 
-i {
+.icon {
     display: block;    
     font-size: 8em;    
      color: $main-color;
@@ -37,7 +50,7 @@ i {
     
 }
 
-i {
+.icon {
     margin: .2em .3em;
 
 }
@@ -54,7 +67,7 @@ i {
  @media only screen and (min-width : 768px) {
 
 
-i {  
+.icon {  
      width: 15%;
 
      

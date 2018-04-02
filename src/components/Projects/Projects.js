@@ -25,8 +25,8 @@ class Projects extends Component {
                 </div>
                 <div className="image-box">
                   <img src={curr.img} className="screenshot" alt="screenshot" />
+                  <button className="code-btn">Github code</button>
                 </div>
-
               </div>;
         })
 

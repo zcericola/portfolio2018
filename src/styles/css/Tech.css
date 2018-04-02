@@ -7,10 +7,10 @@ Error: Undefined mixin 'container-style'.
 2:     height: 100vh;
 3:     @include container-style;
 4:     padding: 1em;
-5:      
-6: }
-7: 
-8: .tech-icons {
+5:     height: auto; 
+6:     width: 100%;
+7:     background: linear-gradient(
+8:       rgba(243, 251, 255, 0.5)  
 
 Backtrace:
 src/styles/scss/Tech.scss:3:in `container-style'
@@ -70,4 +70,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'container-style'.\A         on line 3 of src/styles/scss/Tech.scss, in `container-style'\A         from line 3 of src/styles/scss/Tech.scss\A \A 1: #tech {\A 2:     height: 100vh;\A 3:     @include container-style;\A 4:     padding: 1em;\A 5:      \A 6: }\A 7: \A 8: .tech-icons {"; }
+  content: "Error: Undefined mixin 'container-style'.\A         on line 3 of src/styles/scss/Tech.scss, in `container-style'\A         from line 3 of src/styles/scss/Tech.scss\A \A 1: #tech {\A 2:     height: 100vh;\A 3:     @include container-style;\A 4:     padding: 1em;\A 5:     height: auto; \A 6:     width: 100%;\A 7:     background: linear-gradient(\A 8:       rgba(243, 251, 255, 0.5)  "; }

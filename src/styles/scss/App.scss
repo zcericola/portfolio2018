@@ -16,7 +16,7 @@ $main-font: 'Oldenburg', sans-serif;
     height: 100%;
     width: 100%;
     color: $main-color;    
-    font-style: 'Oldenberg', sans-serif;
+    font-style: $main-font;
 }
 
 @mixin hover-style {
@@ -29,5 +29,6 @@ $main-font: 'Oldenburg', sans-serif;
     position: relative;
     // padding-bottom: 10vh;
     background-color: $white;
+    font-size: 10px;
 
       }

@@ -2,15 +2,16 @@
     height: auto; 
     width: 100%;
     background: linear-gradient(
-      rgba(243, 251, 255, 0.8)  
-      rgba(243, 251, 255, 0.7),
-      rgba(243, 251, 255, 0.6)),
+      rgba(243, 251, 255, 0.5)  
+      rgba(243, 251, 255, 0.4),
+      rgba(243, 251, 255, 0.3)),
     url("../../assets/whitebg.jpg");
     overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;   
     color: $main-color; 
     border: 5px solid orange;   
+    font-size: 1rem;
  } 
 
 .heading-text {   

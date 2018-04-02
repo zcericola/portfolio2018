@@ -9,9 +9,16 @@ const Contact = (props) => {
           <span className="contact-item">zcericola@gmail.com</span>
         </div>
         <div className="contact">
-          <i className="fab fa-github contact-pic" />          
-            <span className="contact-item">github.com/zcericola</span>
-          
+          <a href="https://www.github.com/zcericola">
+            <i className="fab fa-github contact-pic" />
+          </a>
+          <span className="contact-item">github.com/zcericola</span>
+        </div>
+        <div className="contact">
+          <a href="https://www.github.com/zcericola">
+            <i class="fas fa-file-alt contact-pic" />
+          </a>
+          <span className="contact-item">View my resume</span>
         </div>
       </div>;
 };
