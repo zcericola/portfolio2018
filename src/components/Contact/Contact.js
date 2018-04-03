@@ -16,7 +16,7 @@ const Contact = (props) => {
         </div>
         <div className="contact">
           <a href="https://www.github.com/zcericola">
-            <i class="fas fa-file-alt contact-pic" />
+            <i className="fas fa-file-alt contact-pic" />
           </a>
           <span className="contact-item">View my resume</span>
         </div>

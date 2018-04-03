@@ -138,7 +138,6 @@ table {
   background-size: cover;
   background-repeat: no-repeat;
   color: #10321c;
-  border: 5px solid orange;
   font-size: 1rem; }
 
 .heading-text {
@@ -156,8 +155,7 @@ table {
   width: 100%;
   font-family: "Oldenburg", sans-serif;
   font-size: 1.5em;
-  line-height: 1.5em;
-  border: 2px solid red; }
+  line-height: 1.5em; }
 
 #arrow {
   display: block;
@@ -294,7 +292,6 @@ a {
   width: 100%;
   background-color: #10321c;
   height: 90vh;
-  border: 5px solid yellowgreen;
   font-size: 1rem; }
 
 #about-text {
@@ -311,7 +308,7 @@ a {
   color: #10321c;
   font-style: "Oldenburg", sans-serif;
   padding: 2em 1em;
-  background-color: #C0B283;
+  background-color: #F3FBFF;
   font-size: 1rem; }
 
 .title {
@@ -354,8 +351,7 @@ a {
 
 .image-box {
   text-align: center;
-  height: 450px;
-  border: 5px solid orange; }
+  height: 450px; }
 
 .code-btn {
   position: relative;
@@ -373,8 +369,7 @@ a {
 @media only screen and (min-width: 768px) {
   .card {
     padding: 1em;
-    margin: 1.5em 0;
-    border: 5px solid red; }
+    margin: 1.5em 0; }
 
   .screenshot {
     height: 300px;
@@ -392,23 +387,21 @@ a {
 
   .info-box {
     padding: 1em;
-    height: inherit;
-    border: 5px solid slateblue;
+    height: 450px;
     float: left;
     width: 50%; }
 
+  .info-box > .desc {
+    font-size: 1.5rem; }
+
   .image-box {
-    border: 5px solid orangered;
     float: right;
-    width: 50%; }
+    width: 50%;
+    padding-top: 1rem; }
 
   .card {
     height: auto;
-    width: 100%;
-    border: 5px solid yellow; }
-
-  .cards-container {
-    border: 5px solid blue; }
+    width: 100%; }
 
   .code-btn {
     position: relative;
@@ -469,12 +462,8 @@ a {
   padding: 1em;
   height: auto;
   width: 100%;
-  background: linear-gradient(rgba(243, 251, 255, 0.5) rgba(243, 251, 255, 0.4), rgba(243, 251, 255, 0.3)), url("../../assets/whitebg.jpg");
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #F3FBFF;
   color: #10321c;
-  border: 5px solid orange;
   font-size: 1rem; }
 
 .tech-icons {
@@ -483,15 +472,13 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 auto;
-  border: 5px solid red; }
+  margin: 0 auto; }
 
 .icon {
   display: block;
   font-size: 8em;
   color: #10321c;
-  margin: .3em auto;
-  border: 2px solid orange; }
+  margin: .3em auto; }
 
 @media only screen and (min-width: 480px) {
   .tech-icons {

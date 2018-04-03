@@ -1,7 +1,7 @@
 #projects {
  @include container-style;
  padding: 2em 1em;
- background-color: $second-color;
+ background-color: $white;
  font-size: 1rem;
   }
 
@@ -34,7 +34,6 @@
     height: auto; 
     width: 100%;  
     background-color: $second-color;
-
     border-radius: 5px;
     margin: 1em 0;
     padding: 5px;  
@@ -57,7 +56,7 @@
 .image-box {
     text-align: center;
     height: 450px;
-    border: 5px solid orange;
+    // border: 5px solid orange;
 }
 
 .code-btn {
@@ -84,7 +83,7 @@
 .card {
     padding: 1em;
     margin: 1.5em 0;
-    border: 5px solid red;
+    // border: 5px solid red;
 }
 
 .screenshot {
@@ -107,27 +106,32 @@
 
 .info-box {
     padding: 1em;
-    height: inherit;
-    border: 5px solid slateblue;
+    height: 450px;
+    // border: 5px solid slateblue;
     float: left;
     width: 50%;
 }
 
+.info-box > .desc {
+    font-size: 1.5rem;
+}
+
 .image-box {  
-    border: 5px solid orangered;
+    // border: 5px solid orangered;
     float: right;
     width: 50%;
+    padding-top: 1rem;
 }
 
 .card {
     height: auto;
     width: 100%;
-    border: 5px solid yellow;
+    // border: 5px solid yellow;
 
 }
 
 .cards-container{
-      border: 5px solid blue;
+    //   border: 5px solid blue;
 }
 
 .code-btn {

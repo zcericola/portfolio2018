@@ -14,14 +14,14 @@ class Projects extends Component {
     }
 
     displayProjects(){
-        const projects = [{ title: "Artifact Fine Goods", img: `${artifactWeb}`, desc: "Artifact is a fictional fullstack e-commerce website" }, { title: "BookSpy", img: `${bookSpyWeb}`, desc: "A full-stack book search application." }, { title: "Data Store App", img: `${shelfieWeb}`, desc: "An app that replicates a physical filing cabinet for storing important things." }];
+        const projects = [{ title: "Artifact Fine Goods", img: `${artifactWeb}`, desc: "Artifact is a fictional fullstack e-commerce website that allows a user to browse, add an item to their cart, and checkout using Stripe." }, { title: "BookSpy", img: `${bookSpyWeb}`, desc: "A full-stack book search application that pulls data from the GoodReads API." }, { title: "Data Store App", img: `${shelfieWeb}`, desc: "An app that replicates a physical filing cabinet using a database to persist information." }];
         
 
         return projects.map((curr, index) => {
             return <div className="card" key={index}>
                 <div className="info-box">
                   <h1 className="card-title">{curr.title}</h1>
-                  <p>{curr.desc}</p>
+                  <p className = "desc">{curr.desc}</p>
                 </div>
                 <div className="image-box">
                   <img src={curr.img} className="screenshot" alt="screenshot" />

@@ -4,16 +4,9 @@
     padding: 1em;
     height: auto; 
     width: 100%;
-    background: linear-gradient(
-      rgba(243, 251, 255, 0.5)  
-      rgba(243, 251, 255, 0.4),
-      rgba(243, 251, 255, 0.3)),
-    url("../../assets/whitebg.jpg");
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;   
+    background-color: $white;  
     color: $main-color; 
-    border: 5px solid orange;   
+    // border: 5px solid orange;   
     font-size: 1rem;
      
 }
@@ -25,7 +18,7 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    border: 5px solid red;
+    // border: 5px solid red;
    
 }
 
@@ -34,7 +27,7 @@
     font-size: 8em;    
      color: $main-color;
      margin: .3em auto;
-     border: 2px solid orange;
+    //  border: 2px solid orange;
      
 }
 
