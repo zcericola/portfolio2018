@@ -18,6 +18,7 @@ class Header extends Component {
     }
    
 
+
     render(){
         return <div id="header">
             <ul id="logo">
@@ -48,19 +49,19 @@ class Header extends Component {
               }}>
               <ul>
                 <a href="/#about">
-                  <li>About</li>
+                  <li onClick = {this.handleClick}>About</li>
                 </a>
                 <a href="/#projects">
-                  <li>Projects</li>
+                  <li onClick = {this.handleClick}>Projects</li>
                 </a>
                 <a href="#tech">
-                  <li>Tech</li>
+                  <li onClick = {this.handleClick}>Tech</li>
                 </a>
                 <a href="/#contact">
-                  <li>Contact</li>
+                  <li onClick = {this.handleClick}>Contact</li>
                 </a>
                 <a href ="/#resume">
-                <li>Resume</li>
+                <li onClick = {this.handleClick}>Resume</li>
                 </a>
               </ul>
             </div>

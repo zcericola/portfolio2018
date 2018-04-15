@@ -12,13 +12,15 @@ const Contact = (props) => {
           <a href="https://www.github.com/zcericola">
             <i className="fab fa-github contact-pic" />
           </a>
-          <span className="contact-item">github.com/zcericola</span>
+          <a href = "https://www.github.com/zcericola"><span className="contact-item">github.com/zcericola</span></a>
         </div>
         <div className="contact">
-          <a href="https://www.github.com/zcericola">
+          <a href="#">
             <i className="fas fa-file-alt contact-pic" />
           </a>
+          <a href = "#">
           <span className="contact-item">View my resume</span>
+          </a>
         </div>
       </div>;
 };
