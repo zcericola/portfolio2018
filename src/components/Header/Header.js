@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-const resume = require('../../assets/Zac Cericola Resume 2017.pdf');
+const resume = require('../../assets/Zac Cericola Resume.pdf');
 
 class Header extends Component {
     constructor(){

@@ -1,5 +1,5 @@
 import React from 'react';
-const resume = require('../../assets/Zac Cericola Resume 2017.pdf');
+const resume = require('../../assets/Zac Cericola Resume.pdf');
 
 const Contact = (props) => {
     return <div id="contact">
