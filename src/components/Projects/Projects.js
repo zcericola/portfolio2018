@@ -15,7 +15,7 @@ class Projects extends Component {
     }
 
     displayProjects(){
-        const projects = [{ title: "Artifact Fine Goods", img: `${artifactWeb}`, desc: "Artifact is a fictional fullstack e-commerce website that allows a user to browse, add an item to their cart, and checkout using Stripe.", site: 'artifactfinegoods.xyz' }, { title: "BookSpy", img: `${bookSpyWeb}`, desc: "A full-stack book search application that pulls data from the GoodReads API." }, {title: "Casa Connection Rental Management", img: `${casaWeb}`, desc: "A collaborative group project allowing property owners to organize and track tenant, financial, and maintenance information.", site: "casaconnectionmgmt.com"},{ title: "Data Store App", img: `${shelfieWeb}`, desc: "An app that replicates a physical filing cabinet using a database to persist information." }];
+        const projects = [{ title: "Artifact Fine Goods", img: `${artifactWeb}`, desc: "Artifact is a fictional fullstack e-commerce website that allows a user to browse, add an item to their cart, and checkout using Stripe.", site: 'http://www.artifactfinegoods.xyz', github: 'https://github.com/zcericola/artifact-project' }, { title: "BookSpy", img: `${bookSpyWeb}`, desc: "A full-stack book search application that pulls data from the GoodReads API.", github: "https://github.com/zcericola/api-books-project" }, {title: "Casa Connection Rental Management", img: `${casaWeb}`, desc: "A collaborative group project allowing property owners to organize and track tenant, financial, and maintenance information.", site: "http://www.casaconnectionmgmt.com", github: "https://github.com/rental-management/Casa-Connection"},{ title: "Data Store App", img: `${shelfieWeb}`, desc: "An app that replicates a physical filing cabinet using a database to persist information.", github: "https://github.com/zcericola/simulation-1" }];
         
 
         return projects.map((curr, index) => {
@@ -27,7 +27,7 @@ class Projects extends Component {
                 </div>
                 <div className="image-box">
                   <img src={curr.img} className="screenshot" alt="screenshot" />
-                  <button className="code-btn">Github code</button>
+                  <a href = {curr.github} target = "#"><button className="code-btn">Github code</button></a>
                 </div>
               </div>;
         })

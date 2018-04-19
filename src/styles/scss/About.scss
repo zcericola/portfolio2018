@@ -2,7 +2,6 @@
 width: 100%;
 background-color: $main-color;
 height: 90vh;
-  // border: 5px solid yellowgreen;
 font-size: 1rem;
 }
 
@@ -11,7 +10,6 @@ font-size: 1rem;
     padding: 1em;
     color: $second-color;
     width: auto;
-
     
     
 }
@@ -20,6 +18,12 @@ font-size: 1rem;
    #about-two {
      height: 80vh;
    }
+
+ @media only screen and (min-width: 1000px){
+   #about-two {
+     height: 50vh;
+   }
+ }
 
    
  }

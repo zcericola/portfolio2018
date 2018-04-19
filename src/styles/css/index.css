@@ -303,6 +303,9 @@ a {
 @media only screen and (min-width: 480px) {
   #about-two {
     height: 80vh; } }
+@media only screen and (min-width: 480px) and (min-width: 1000px) {
+  #about-two {
+    height: 50vh; } }
 #projects {
   height: 100%;
   width: 100%;
@@ -455,10 +458,14 @@ a {
 
   .contact-item {
     margin-left: 2em;
-    font-size: 2rem; }
+    font-size: 2rem;
+    width: auto; }
 
   .contact-pic {
     margin: 1rem; } }
+@media only screen and (min-width: 1000px) {
+  #contact {
+    height: 70vh; } }
 #tech {
   height: 100vh;
   height: 100%;

@@ -1,13 +1,16 @@
 import React from 'react';
+const resume = require('../../assets/Zac Cericola Resume 2017.pdf');
 
 const Contact = (props) => {
     return <div id="contact">
         <h1 className="title">/Contact</h1>
-        <div className="contact">
-          <i className="fas fa-envelope contact-pic" />
-
+        {/* <div className="contact"> */}
+        
+          {/* <i className="fas fa-envelope contact-pic" />       
+       
           <span className="contact-item">zcericola@gmail.com</span>
-        </div>
+       
+        </div> */}
         <div className="contact">
           <a href="https://www.github.com/zcericola">
             <i className="fab fa-github contact-pic" />
@@ -15,12 +18,13 @@ const Contact = (props) => {
           <a href = "https://www.github.com/zcericola"><span className="contact-item">github.com/zcericola</span></a>
         </div>
         <div className="contact">
-          <a href="#">
+          <a href={resume}>
             <i className="fas fa-file-alt contact-pic" />
+          </a>         
+          <a href = {resume}>
+          <span className="contact-item">Resume</span>
           </a>
-          <a href = "#">
-          <span className="contact-item">View my resume</span>
-          </a>
+        
         </div>
       </div>;
 };

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+const resume = require('../../assets/Zac Cericola Resume 2017.pdf');
 
 class Header extends Component {
     constructor(){
@@ -27,9 +28,9 @@ class Header extends Component {
               </a>
             </ul>
             <ul id="nav-bar">
-              <a href="/#about">
+              {/* <a href="/#about">
                 <li className="nav-element">About</li>
-              </a>
+              </a> */}
               <a href="/#projects">
                 <li className="nav-element">Projects</li>
               </a>
@@ -39,7 +40,7 @@ class Header extends Component {
               <a href="/#contact">
                 <li className="nav-element">Contact</li>
               </a>
-              <a href="/#resume">
+              <a href={resume}>
                 <li className="nav-element">Resume</li>
               </a>
             </ul>
@@ -48,9 +49,9 @@ class Header extends Component {
                 this.dropDn = dropDn;
               }}>
               <ul>
-                <a href="/#about">
+                {/* <a href="/#about">
                   <li onClick = {this.handleClick}>About</li>
-                </a>
+                </a> */}
                 <a href="/#projects">
                   <li onClick = {this.handleClick}>Projects</li>
                 </a>
