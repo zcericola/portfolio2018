@@ -12,7 +12,7 @@ class Home extends Component {
                 Javascript. I build dynamic web applications that pair clean, well commented code with no-nonsense design.
               </p>              
             </section>
-           {/* <a href = '#about-text'><i className="fas fa-angle-down fa-fw fa-lg" id = 'arrow'></i></a>           */}
+         
            
           </div>;
     }

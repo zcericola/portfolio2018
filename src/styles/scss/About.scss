@@ -19,6 +19,15 @@ font-size: 1rem;
      height: 80vh;
    }
 
+      
+ }
+
+ @media only screen and (min-width: 480px) and (orientation: landscape){
+   #about-text {
+     font-size: 1.5rem;
+   }
+ }
+
  @media only screen and (min-width: 1000px){
    #about-two {
      height: 50vh;
@@ -26,5 +35,7 @@ font-size: 1rem;
  }
 
    
- }
+
+
+
 
