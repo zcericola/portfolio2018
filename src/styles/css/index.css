@@ -309,6 +309,16 @@ a {
 @media only screen and (min-width: 480px) and (orientation: landscape) {
   #about-text {
     font-size: 1.5rem; } }
+@media only screen and (max-width: 670px) and (orientation: landscape) {
+  #about-two {
+    background-color: #F3FBFF;
+    color: #10321c; } }
+@media only screen and (min-width: 760px) and (orientation: landscape) {
+  #about-two {
+    height: auto; } }
+@media only screen and (min-width: 760px) {
+  #about-two {
+    height: auto; } }
 @media only screen and (min-width: 1000px) {
   #about-two {
     height: 50vh; } }
@@ -375,7 +385,8 @@ a {
   font-size: 1rem;
   background-color: #10321c;
   color: #C0B283;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin: 0 5px; }
 
 .site {
   display: inline-block;
@@ -472,6 +483,12 @@ a {
 
   .contact-pic {
     margin: 1rem; } }
+@media only screen and (min-width: 640px) and (orientation: landscape) {
+  .contact {
+    flex-direction: row; }
+
+  .contact-item {
+    margin: 0 1em; } }
 @media only screen and (min-width: 1000px) {
   #contact {
     height: 70vh; } }

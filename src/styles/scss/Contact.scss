@@ -46,6 +46,7 @@
     
 }
 
+
 .contact-item {
     margin-left: 2em;
     font-size: 2rem;
@@ -60,6 +61,17 @@
 
 }
 
+}
+
+@media only screen and (min-width: 640px) and (orientation: landscape){
+.contact {
+    flex-direction: row;
+}
+.contact-item {
+    margin: 0 1em;
+}
+
+    
 }
 
 @media only screen and (min-width: 1000px){

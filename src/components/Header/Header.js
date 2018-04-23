@@ -6,7 +6,7 @@ class Header extends Component {
         super();
         this.handleClick = this.handleClick.bind(this);
     }
-
+    
     handleClick = () => {
          let dropDn = this.dropDn;
          if (dropDn.classList.contains("show-drop-down")) {

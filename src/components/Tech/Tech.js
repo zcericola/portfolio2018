@@ -11,9 +11,7 @@ const Tech = (props) => {
         <i className="icon-sass icon" title = "Sass"></i>
         <i className="icon-javascript-alt icon" title ="JavaScript"></i> 
         <i className="icon-jquery icon" title = "Jquery"></i>
-        {/* <i className="icon-bootstrap icon"></i> */}
         <i className="icon-reactjs icon" title = "React"></i>   
-        {/* <i className="icon-angular icon"></i>  */}
         <i className="icon-nodejs icon" title = "NodeJS"></i>
         <i className="icon-postgres icon" title = "PostgreSQL"></i>
         </section>
